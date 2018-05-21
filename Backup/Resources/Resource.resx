@@ -1,0 +1,1464 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="indHeader1" xml:space="preserve">
+    <value>Top of the line services</value>
+  </data>
+  <data name="indHeader10" xml:space="preserve">
+    <value>Solutions that you need</value>
+  </data>
+  <data name="indHeader11" xml:space="preserve">
+    <value>Electrical and instrumental activities</value>
+  </data>
+  <data name="indHeader12" xml:space="preserve">
+    <value>From your local partner</value>
+  </data>
+  <data name="indHeader2" xml:space="preserve">
+    <value>Engineering and construction</value>
+  </data>
+  <data name="indHeader3" xml:space="preserve">
+    <value>We deploy the most complex offshore and onshore  infrastructure </value>
+  </data>
+  <data name="indHeader4" xml:space="preserve">
+    <value>Get reliable equipment</value>
+  </data>
+  <data name="indHeader5" xml:space="preserve">
+    <value>Procurement</value>
+  </data>
+  <data name="indHeader6" xml:space="preserve">
+    <value>We will provide you with any supplies your business might need</value>
+  </data>
+  <data name="indHeader7" xml:space="preserve">
+    <value>Experience</value>
+  </data>
+  <data name="indHeader8" xml:space="preserve">
+    <value>People - are the heart of our business</value>
+  </data>
+  <data name="indHeader9" xml:space="preserve">
+    <value>Achieving clients satisfaction by safely delivering quality projects.</value>
+  </data>
+  <data name="indWelcome1" xml:space="preserve">
+    <value>Welcome to SITEK Caspian website</value>
+  </data>
+  <data name="indWelcome10" xml:space="preserve">
+    <value>We offer our sevices in E&amp;I calibration testing, pre-commissioning &amp; Commissioning activity, start up, follow up, assistance and much more…</value>
+  </data>
+  <data name="indWelcome101" xml:space="preserve">
+    <value>Be secure with our infrastructure testing.</value>
+  </data>
+  <data name="indWelcome11" xml:space="preserve">
+    <value>Maintenance</value>
+  </data>
+  <data name="indWelcome12" xml:space="preserve">
+    <value> always includes instruments functional calibration, Programmed maintenance check, Spare parts management and much more…</value>
+  </data>
+  <data name="indWelcome121" xml:space="preserve">
+    <value>Maintenance of current infrastructure</value>
+  </data>
+  <data name="indWelcome13" xml:space="preserve">
+    <value>Trainings</value>
+  </data>
+  <data name="indWelcome14" xml:space="preserve">
+    <value> opportunity for industrial safety, Occupational and Health safety, Electrical and Fire Safety trainings..</value>
+  </data>
+  <data name="indWelcome141" xml:space="preserve">
+    <value>We provide distance learning</value>
+  </data>
+  <data name="indWelcome15" xml:space="preserve">
+    <value>Inspiring </value>
+  </data>
+  <data name="IndWelcome151" xml:space="preserve">
+    <value>partner for your business and success - SITEK CASPIAN</value>
+  </data>
+  <data name="indWelcome16" xml:space="preserve">
+    <value>Modern</value>
+  </data>
+  <data name="indWelcome17" xml:space="preserve">
+    <value>Reliable</value>
+  </data>
+  <data name="indWelcome18" xml:space="preserve">
+    <value>Robust</value>
+  </data>
+  <data name="indWelcome19" xml:space="preserve">
+    <value>National</value>
+  </data>
+  <data name="indWelcome2" xml:space="preserve">
+    <value>We are operating in different industrial sectors like Oil&amp;Gas, Refinery, Power, Petrochemical, Pharma offering a wide range of services in the field of Electrical and Instrumentation works, well supported by our long historical presence and experience on International market.</value>
+  </data>
+  <data name="indWelcome20" xml:space="preserve">
+    <value>Check our Services</value>
+  </data>
+  <data name="indWelcome21" xml:space="preserve">
+    <value>We are operating in different</value>
+  </data>
+  <data name="indWelcome211" xml:space="preserve">
+    <value>Call Us Now</value>
+  </data>
+  <data name="indWelcome22" xml:space="preserve">
+    <value>offshore hours</value>
+  </data>
+  <data name="indWelcome23" xml:space="preserve">
+    <value>onshore hours</value>
+  </data>
+  <data name="indWelcome24" xml:space="preserve">
+    <value>hours without accidents</value>
+  </data>
+  <data name="indWelcome25" xml:space="preserve">
+    <value>finished projects</value>
+  </data>
+  <data name="indWelcome26" xml:space="preserve">
+    <value>ongoing projects</value>
+  </data>
+  <data name="indWelcome27" xml:space="preserve">
+    <value>Check our projects</value>
+  </data>
+  <data name="indWelcome28" xml:space="preserve">
+    <value>This is our Latest work</value>
+  </data>
+  <data name="indWelcome29" xml:space="preserve">
+    <value>Electrical and Instrumentation Services for your Company in your actual and future projects</value>
+  </data>
+  <data name="indWelcome3" xml:space="preserve">
+    <value>Engineering </value>
+  </data>
+  <data name="indWelcome30" xml:space="preserve">
+    <value>View Full Portfolio</value>
+  </data>
+  <data name="indWelcome31" xml:space="preserve">
+    <value>SITEK Caspian has a good group of engineers and technical manpower, who demonstrated outstanding expertise and capabilities to perform the work professionally and in line with the client expectations regarding the quality of works, budgets and time.</value>
+  </data>
+  <data name="indWelcome32" xml:space="preserve">
+    <value>KCOI - We strongly recommend SITEK Caspian for any multinational companies</value>
+  </data>
+  <data name="indWelcome33" xml:space="preserve">
+    <value>SITEK Caspian have a good team of CP engineers, and technical manpower of all grades and performs the work professionally and with devotion to complete the specified projects tasks within the scheduled time and to our client satisfaction.</value>
+  </data>
+  <data name="indWelcome34" xml:space="preserve">
+    <value>AGIP KCO - We wish them every success in their future business and would like to have such relations with them again</value>
+  </data>
+  <data name="indWelcome35" xml:space="preserve">
+    <value>KCOI - We strongly recommend SITEK Caspian for any multinational companies looking for reliable and sustainable supplier for the above mentioned disciplines and works.</value>
+  </data>
+  <data name="indWelcome4" xml:space="preserve">
+    <value>of feasibility and basic design review and execution, BoQ for installations, Data sheet for E&amp;I and HVAC equipment, Construction Method of statements, Vendor documentations follow up and much more…</value>
+  </data>
+  <data name="indWelcome41" xml:space="preserve">
+    <value>We are the best service providers </value>
+  </data>
+  <data name="indWelcome5" xml:space="preserve">
+    <value>Procurement</value>
+  </data>
+  <data name="indWelcome6" xml:space="preserve">
+    <value>We execute great variety of  tasks for our customers, including Vendor list preparations, Vendor evaluation, Procurement Plan and Schedule Implementation, Material requisition preparation, Shipping shedule follow up, and much more…</value>
+  </data>
+  <data name="indWelcome7" xml:space="preserve">
+    <value>Construction</value>
+  </data>
+  <data name="indWelcome8" xml:space="preserve">
+    <value>Our expertise in contruction services delivers you tip results in Process Package and LER assemblies, Process Instrument and electrical equipment installation, F&amp;G, Firefighting and Alarm system installation, and many more…</value>
+  </data>
+  <data name="indWelcome9" xml:space="preserve">
+    <value>Mechanical completion and commissioning</value>
+  </data>
+  <data name="menu1" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="menu2" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="menu3" xml:space="preserve">
+    <value>Products and Services</value>
+  </data>
+  <data name="menu4" xml:space="preserve">
+    <value>Projects</value>
+  </data>
+  <data name="menu5" xml:space="preserve">
+    <value>Career</value>
+  </data>
+  <data name="menu6" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="aboutFounder1" xml:space="preserve">
+    <value>Kassym Abzhanov, Founder, Member of the Board of Directors</value>
+  </data>
+  <data name="aboutFounder2" xml:space="preserve">
+    <value>Davide Peverati, President, Member of the Board of Directors</value>
+  </data>
+  <data name="aboutHeader1" xml:space="preserve">
+    <value>About us</value>
+  </data>
+  <data name="aboutHeader2" xml:space="preserve">
+    <value>We are professionals</value>
+  </data>
+  <data name="aboutHeader3" xml:space="preserve">
+    <value>About Company</value>
+  </data>
+  <data name="aboutHeader4" xml:space="preserve">
+    <value>Our Mission</value>
+  </data>
+  <data name="aboutHeader5" xml:space="preserve">
+    <value>Our Vision and Values</value>
+  </data>
+  <data name="aboutHeader6" xml:space="preserve">
+    <value>Our Customers</value>
+  </data>
+  <data name="AboutText1" xml:space="preserve">
+    <value>SITEK Caspian has been delivering quality electrical, instrumentation and control engineering services in Kazakhstan since 2011.</value>
+  </data>
+  <data name="AboutText10" xml:space="preserve">
+    <value>- We believe that a full understanding of customer needs and flexible provision of tailored solutions is the key to the successful completion of the projects, and the sustainable and commercially successful operation of SITEK Caspian.</value>
+  </data>
+  <data name="AboutText101" xml:space="preserve">
+    <value>Customer orientation</value>
+  </data>
+  <data name="AboutText11" xml:space="preserve">
+    <value>- Along with the high-quality equipment and technology, our company considers skilled labor an indispensable condition. We are proud to have generations working together at our company, who focus on sharing of knowledge and ongoing training.</value>
+  </data>
+  <data name="AboutText111" xml:space="preserve">
+    <value>Expertise</value>
+  </data>
+  <data name="AboutText12" xml:space="preserve">
+    <value> - Our company works on the principle of personal responsibility. Clearly defined responsibilities are allocated to each project to ensure the accuracy and quality of the work.</value>
+  </data>
+  <data name="AboutText121" xml:space="preserve">
+    <value>Responsibility</value>
+  </data>
+  <data name="AboutText13" xml:space="preserve">
+    <value>- Our employees demonstrate good teamwork and maximum performance to achieve the common goal. People are the heart of our business.</value>
+  </data>
+  <data name="AboutText131" xml:space="preserve">
+    <value>People</value>
+  </data>
+  <data name="AboutText2" xml:space="preserve">
+    <value>We operate across different industrial sectors such as Oil &amp;Gas, Refinery, Power, Petrochemical and Pharma offering a wide range of services in the field of electrical and instrumentation works, well supported by our long historical presence and experience on international market</value>
+  </data>
+  <data name="AboutText3" xml:space="preserve">
+    <value>SITEK Caspian has been created on the initiative of Kazakhstan holding company Lancaster Group and Italian SITIE Implanti Industriali. Our team has international experience and expertise to deliver work at all stages of production - from early phases of the project to its final stage of commissioning and start-up.</value>
+  </data>
+  <data name="AboutText4" xml:space="preserve">
+    <value>We have an extensive track record of projects executed to the highest quality, agreed schedules and within the budget. Our services are enhanced through many associations and established working relationships with local and international contractors and specialist vendors. We have considerable experience in alliances and working agreements with third parties to combine our joint resources for the successful execution of projects.</value>
+  </data>
+  <data name="AboutText5" xml:space="preserve">
+    <value>Our mission to be a leading and preferred supplier of high-standard electrical, instrumentation and control engineering services, whilst ensuring that they are delivered safely, within budget and on time. We will achieve this by:</value>
+  </data>
+  <data name="AboutText6" xml:space="preserve">
+    <value>strategic partnerships with our customers based on mutual understanding and collaboration.</value>
+  </data>
+  <data name="AboutText61" xml:space="preserve">
+    <value>Establishing long-term</value>
+  </data>
+  <data name="AboutText7" xml:space="preserve">
+    <value>our abilities and investing in the training and development of our employees.</value>
+  </data>
+  <data name="AboutText71" xml:space="preserve">
+    <value>Continuously improving</value>
+  </data>
+  <data name="AboutText8" xml:space="preserve">
+    <value>and creativity to provide unique solutions that focus on the needs of the customer.</value>
+  </data>
+  <data name="AboutText81" xml:space="preserve">
+    <value>Encouraging innovation</value>
+  </data>
+  <data name="AboutText9" xml:space="preserve">
+    <value>We aim to provide efficient and safe working environments from which our clients can achieve their overall goals and ambitions. Our core values guide us in everything we do, day by day:</value>
+  </data>
+  <data name="aboutHeader10" xml:space="preserve">
+    <value>No positions available yet</value>
+  </data>
+  <data name="aboutHeader11" xml:space="preserve">
+    <value>We are hiring</value>
+  </data>
+  <data name="aboutHeader12" xml:space="preserve">
+    <value>specialists for SITEK</value>
+  </data>
+  <data name="aboutHeader13" xml:space="preserve">
+    <value>Become</value>
+  </data>
+  <data name="aboutHeader14" xml:space="preserve">
+    <value>part of our SITEK</value>
+  </data>
+  <data name="aboutHeader15" xml:space="preserve">
+    <value>team</value>
+  </data>
+  <data name="aboutHeader7" xml:space="preserve">
+    <value>Vacancies</value>
+  </data>
+  <data name="aboutHeader9" xml:space="preserve">
+    <value>HR department</value>
+  </data>
+  <data name="aboutMore1" xml:space="preserve">
+    <value>We aim to</value>
+  </data>
+  <data name="aboutMore10" xml:space="preserve">
+    <value>Process Package and Local Equipment Room Room assembly</value>
+  </data>
+  <data name="aboutMore11" xml:space="preserve">
+    <value>Process Instrument and electrical equipment installation</value>
+  </data>
+  <data name="aboutMore12" xml:space="preserve">
+    <value>F&amp;G ,Firefighting and Alarm system installation</value>
+  </data>
+  <data name="aboutMore13" xml:space="preserve">
+    <value>DCS/PLC/ESD/Telecom/CCTV/FOC Sys. Installation</value>
+  </data>
+  <data name="aboutMore14" xml:space="preserve">
+    <value>Heat Tracing system installation</value>
+  </data>
+  <data name="aboutMore15" xml:space="preserve">
+    <value>Mechanical Completion</value>
+  </data>
+  <data name="aboutMore16" xml:space="preserve">
+    <value>Cathodic Protection</value>
+  </data>
+  <data name="aboutMore17" xml:space="preserve">
+    <value>HVAC System</value>
+  </data>
+  <data name="aboutMore18" xml:space="preserve">
+    <value>Hook-up works</value>
+  </data>
+  <data name="aboutMore19" xml:space="preserve">
+    <value>We work onshore</value>
+  </data>
+  <data name="aboutMore2" xml:space="preserve">
+    <value>deliver results in time</value>
+  </data>
+  <data name="aboutMore20" xml:space="preserve">
+    <value>as well as offshore</value>
+  </data>
+  <data name="aboutMore21" xml:space="preserve">
+    <value>We are certified for the most complex projects</value>
+  </data>
+  <data name="aboutMore22" xml:space="preserve">
+    <value>Sea expertise in Central Asia</value>
+  </data>
+  <data name="aboutMore23" xml:space="preserve">
+    <value>Recent Projects</value>
+  </data>
+  <data name="aboutMore24" xml:space="preserve">
+    <value>Castoro12 and Castoro16</value>
+  </data>
+  <data name="aboutMore25" xml:space="preserve">
+    <value>refurbishment barge</value>
+  </data>
+  <data name="aboutMore26" xml:space="preserve">
+    <value>Final client:</value>
+  </data>
+  <data name="aboutMore27" xml:space="preserve">
+    <value>Main contractor:</value>
+  </data>
+  <data name="aboutMore28" xml:space="preserve">
+    <value>ERSAI</value>
+  </data>
+  <data name="aboutMore29" xml:space="preserve">
+    <value>DSME</value>
+  </data>
+  <data name="aboutMore3" xml:space="preserve">
+    <value>Lower your costs with SITEK constructions</value>
+  </data>
+  <data name="aboutMore30" xml:space="preserve">
+    <value>SAIPEM</value>
+  </data>
+  <data name="aboutMore31" xml:space="preserve">
+    <value>MAERSK</value>
+  </data>
+  <data name="aboutMore32" xml:space="preserve">
+    <value>KCOI</value>
+  </data>
+  <data name="aboutMore33" xml:space="preserve">
+    <value>KMG Drilling &amp; Services</value>
+  </data>
+  <data name="aboutMore34" xml:space="preserve">
+    <value>DIETSMANN</value>
+  </data>
+  <data name="aboutMore35" xml:space="preserve">
+    <value>NCOC</value>
+  </data>
+  <data name="aboutMore36" xml:space="preserve">
+    <value>Zhambyl Submersible</value>
+  </data>
+  <data name="aboutMore37" xml:space="preserve">
+    <value>Drilling Barge</value>
+  </data>
+  <data name="aboutMore38" xml:space="preserve">
+    <value>New Wellhead Area</value>
+  </data>
+  <data name="aboutMore39" xml:space="preserve">
+    <value>K&amp;L Line</value>
+  </data>
+  <data name="aboutMore4" xml:space="preserve">
+    <value>We lower your costs and accomplish tasks</value>
+  </data>
+  <data name="aboutMore40" xml:space="preserve">
+    <value>JUDR</value>
+  </data>
+  <data name="aboutMore41" xml:space="preserve">
+    <value>Drilling rig</value>
+  </data>
+  <data name="aboutMore42" xml:space="preserve">
+    <value>Zhambyl Submersible</value>
+  </data>
+  <data name="aboutMore43" xml:space="preserve">
+    <value>Drilling Barge</value>
+  </data>
+  <data name="aboutMore44" xml:space="preserve">
+    <value>Zhambyl Submersible Drilling Barge</value>
+  </data>
+  <data name="aboutMore45" xml:space="preserve">
+    <value>Karabatan On-shore facilities - ECP maintenance phase 1</value>
+  </data>
+  <data name="aboutMore5" xml:space="preserve">
+    <value>Construction</value>
+  </data>
+  <data name="aboutMore6" xml:space="preserve">
+    <value>The strength we’re proud of is our organization of the work. All activities are based on a Health-and-Safety culture: we believe on the Coaching on Safety before the Control on Safety, and we incentive the day-by-day through programs of reward for best safety practices. The skills of the craft - which is selected via technical-oriented criteria, then trained through dedicated programs, and the planning-oriented approach gives a plus on mechanical-completion of systems.</value>
+  </data>
+  <data name="aboutMore7" xml:space="preserve">
+    <value>Particular Proud</value>
+  </data>
+  <data name="aboutMore8" xml:space="preserve">
+    <value>The Cathodic Protection Division is a specific Business Unit formed to accomplish all the aspect of corrosion monitoring, detection, prevention and maintenance.</value>
+  </data>
+  <data name="aboutMore9" xml:space="preserve">
+    <value>Main Activities We Can Perform</value>
+  </data>
+  <data name="aboutText20" xml:space="preserve">
+    <value>Become part of our SITEK team</value>
+  </data>
+  <data name="aboutText21" xml:space="preserve">
+    <value>We are looking for competent, self-motivated and self-conceited employees that have faith in themselves and choose their own place in life!</value>
+  </data>
+  <data name="aboutText22" xml:space="preserve">
+    <value>The main value of SITEK Caspian Company is its employees. Working in our team means to have the real possibility of self-improving as professional and person making new targets and gradually striving to achieve them.</value>
+  </data>
+  <data name="aboutText23" xml:space="preserve">
+    <value>Feel free to submit your CV. We are constantly hiring engineers for our ongoing and future projects.</value>
+  </data>
+  <data name="aboutTime1" xml:space="preserve">
+    <value>Working Hours</value>
+  </data>
+  <data name="aboutTime2" xml:space="preserve">
+    <value>Monday-Friday</value>
+  </data>
+  <data name="aboutTime3" xml:space="preserve">
+    <value>Saturday, Sunday</value>
+  </data>
+  <data name="aboutTime4" xml:space="preserve">
+    <value>- 9am to 6pm</value>
+  </data>
+  <data name="aboutTime5" xml:space="preserve">
+    <value>- Closed</value>
+  </data>
+  <data name="contact01" xml:space="preserve">
+    <value>Our locations</value>
+  </data>
+  <data name="contact02" xml:space="preserve">
+    <value>We are modern and rapidly developing company that always looking for new collaborations and partnerships</value>
+  </data>
+  <data name="email1" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="email2" xml:space="preserve">
+    <value>Please enter a valid e-mail</value>
+  </data>
+  <data name="email3" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="menu07" xml:space="preserve">
+    <value>Contacts</value>
+  </data>
+  <data name="menu7" xml:space="preserve">
+    <value>Contact Us</value>
+  </data>
+  <data name="menu8" xml:space="preserve">
+    <value>Full name</value>
+  </data>
+  <data name="name1" xml:space="preserve">
+    <value>Please enter your name</value>
+  </data>
+  <data name="number1" xml:space="preserve">
+    <value>Phone number</value>
+  </data>
+  <data name="number2" xml:space="preserve">
+    <value>Tell us about yourself</value>
+  </data>
+  <data name="number3" xml:space="preserve">
+    <value>Submit your application</value>
+  </data>
+  <data name="number4" xml:space="preserve">
+    <value>Address:</value>
+  </data>
+  <data name="number5" xml:space="preserve">
+    <value>Aytike Bi street, 55, Atyrau, 060011, Kazakhstan</value>
+  </data>
+  <data name="aboutMore46" xml:space="preserve">
+    <value>Karabatan On-shore facilities - ECP maintenance phase 2</value>
+  </data>
+  <data name="aboutMore47" xml:space="preserve">
+    <value>NCOC</value>
+  </data>
+  <data name="aboutMore48" xml:space="preserve">
+    <value>Karabatan Sour Oil&amp;Gas Pipeline</value>
+  </data>
+  <data name="aboutMore49" xml:space="preserve">
+    <value>Bonatti</value>
+  </data>
+  <data name="aboutMore490" xml:space="preserve">
+    <value>Karabatan On-shore facilities-IECEX equipment &amp; metering equipment maintenance</value>
+  </data>
+  <data name="aboutMore491" xml:space="preserve">
+    <value>Kashagan Project “D-Island”</value>
+  </data>
+  <data name="aboutMore492" xml:space="preserve">
+    <value>Tozzi Kazakhstan</value>
+  </data>
+  <data name="aboutMore493" xml:space="preserve">
+    <value>Kashagan OFF-shore facilities- HVAC maintenance</value>
+  </data>
+  <data name="aboutMore494" xml:space="preserve">
+    <value>KCOI New Pig Trap Skid</value>
+  </data>
+  <data name="aboutMore495" xml:space="preserve">
+    <value>KSS BBSH pipeline ECP system</value>
+  </data>
+  <data name="aboutMore496" xml:space="preserve">
+    <value>Caspian Ocean</value>
+  </data>
+  <data name="aboutMore497" xml:space="preserve">
+    <value>TENGIZ LCR HVAC engineering &amp; installation supervision</value>
+  </data>
+  <data name="aboutMore498" xml:space="preserve">
+    <value>TENGIZCHEVROIL</value>
+  </data>
+  <data name="aboutMore499" xml:space="preserve">
+    <value>NCOC EPC 2&amp;3 Kashagan Field – E&amp;I installation</value>
+  </data>
+  <data name="aboutMore501" xml:space="preserve">
+    <value>NCOC</value>
+  </data>
+  <data name="aboutMore502" xml:space="preserve">
+    <value>NCOC EPC 2&amp;3 Kashagan Field – Supply of Local Equipment Room EPC</value>
+  </data>
+  <data name="aboutMore503" xml:space="preserve">
+    <value>P1 refuge barge refurbishment for Kashagan</value>
+  </data>
+  <data name="aboutMore504" xml:space="preserve">
+    <value>MAERSK</value>
+  </data>
+  <data name="aboutMore505" xml:space="preserve">
+    <value>TMB barge</value>
+  </data>
+  <data name="aboutTitle1" xml:space="preserve">
+    <value>Career</value>
+  </data>
+  <data name="aboutTitle2" xml:space="preserve">
+    <value>HSEQ</value>
+  </data>
+  <data name="aboutTitle3" xml:space="preserve">
+    <value>Mechanical Completion</value>
+  </data>
+  <data name="aboutTitle4" xml:space="preserve">
+    <value>Procurement</value>
+  </data>
+  <data name="aboutTitle5" xml:space="preserve">
+    <value>Products &amp; Services</value>
+  </data>
+  <data name="aboutTitle6" xml:space="preserve">
+    <value>Trainings</value>
+  </data>
+  <data name="menu10" xml:space="preserve">
+    <value>Our Projects</value>
+  </data>
+  <data name="menu9" xml:space="preserve">
+    <value>Certification</value>
+  </data>
+  <data name="moreText1" xml:space="preserve">
+    <value>Professional</value>
+  </data>
+  <data name="moreText10" xml:space="preserve">
+    <value>We can support Client during the critical phase of Energization and  Start-up. Skills and experience of personnel makes these activities safe and reliable.</value>
+  </data>
+  <data name="moreText11" xml:space="preserve">
+    <value>MAINTENANCE</value>
+  </data>
+  <data name="moreText12" xml:space="preserve">
+    <value>Maintenance of complex systems requires highly-prepared personnel; we’re strong for the long experience gained both on-shore and offshore.</value>
+  </data>
+  <data name="moreText13" xml:space="preserve">
+    <value>TRAININGS</value>
+  </data>
+  <data name="moreText14" xml:space="preserve">
+    <value>We provide distance learning opportunity for Industrial safety, Occupational and Health safety, Electrical and Fire safety trainings…</value>
+  </data>
+  <data name="moreText15" xml:space="preserve">
+    <value>Reliable systems</value>
+  </data>
+  <data name="moreText16" xml:space="preserve">
+    <value>provided by SITEK</value>
+  </data>
+  <data name="moreText17" xml:space="preserve">
+    <value>Always aspiring for higher standards of technologies</value>
+  </data>
+  <data name="moreText18" xml:space="preserve">
+    <value>Worldwide innovations from your local partner</value>
+  </data>
+  <data name="moreText19" xml:space="preserve">
+    <value>Be prepared</value>
+  </data>
+  <data name="moreText2" xml:space="preserve">
+    <value>technical deployment</value>
+  </data>
+  <data name="moreText20" xml:space="preserve">
+    <value>for any obstacles</value>
+  </data>
+  <data name="moreText21" xml:space="preserve">
+    <value>Training allow you to foresee the incomming opportunities</value>
+  </data>
+  <data name="moreText22" xml:space="preserve">
+    <value>Get prepared for any challenges</value>
+  </data>
+  <data name="moreText23" xml:space="preserve">
+    <value>SITEK Caspian</value>
+  </data>
+  <data name="moreText24" xml:space="preserve">
+    <value>Training Center</value>
+  </data>
+  <data name="moreText25" xml:space="preserve">
+    <value>Our training center</value>
+  </data>
+  <data name="moreText26" xml:space="preserve">
+    <value>Our training center has been working since 2016, and has been created in order to expand the variety of services our company offers.</value>
+  </data>
+  <data name="moreText27" xml:space="preserve">
+    <value>In our center we implement modern approaches of personel trainings in accordition to legal system of the Republic of Kazakhstan in the field of  safety and labor protection.</value>
+  </data>
+  <data name="moreText28" xml:space="preserve">
+    <value>Contact SITEK Caspian training coordinator - Yermek Sakin.</value>
+  </data>
+  <data name="moreText29" xml:space="preserve">
+    <value>Our approach</value>
+  </data>
+  <data name="moreText3" xml:space="preserve">
+    <value>We provide top line services in the industry</value>
+  </data>
+  <data name="moreText30" xml:space="preserve">
+    <value>Based on hour long-term practice, we faced various challenges like cost-efficiency, losses over time risks due to personell trainings and certification. Kazakhstan legislation requires each specialist to receive 10-hours trainings away from the production. This is must for knowledge and credentials proof.</value>
+  </data>
+  <data name="moreText31" xml:space="preserve">
+    <value>Check our licenses and certifications</value>
+  </data>
+  <data name="moreText32" xml:space="preserve">
+    <value>Training Center Activities</value>
+  </data>
+  <data name="moreText33" xml:space="preserve">
+    <value>Тogether with Ministry of Emergency Situations, Unicorn CCC and Mr. Doors</value>
+  </data>
+  <data name="moreText34" xml:space="preserve">
+    <value>Distance learninig technologies developed by national science and technical center for industrial security.</value>
+  </data>
+  <data name="moreText35" xml:space="preserve">
+    <value>Application to courses can be submitted by individuals</value>
+  </data>
+  <data name="moreText36" xml:space="preserve">
+    <value>Learning and certification is conducted online in any place and time</value>
+  </data>
+  <data name="moreText37" xml:space="preserve">
+    <value>Cost efficiency due to lack of T&amp;E, Per Diems and overtime costs</value>
+  </data>
+  <data name="moreText38" xml:space="preserve">
+    <value>System reports for clients</value>
+  </data>
+  <data name="moreText39" xml:space="preserve">
+    <value>Industrial Safety</value>
+  </data>
+  <data name="moreText4" xml:space="preserve">
+    <value>From your local partner.</value>
+  </data>
+  <data name="moreText40" xml:space="preserve">
+    <value>Is our core focus</value>
+  </data>
+  <data name="moreText41" xml:space="preserve">
+    <value>Fire safety in hazardous industrial objects</value>
+  </data>
+  <data name="moreText42" xml:space="preserve">
+    <value>Requirements for implementation and secure exploitation of load lifting equipment</value>
+  </data>
+  <data name="moreText43" xml:space="preserve">
+    <value>Requirements for construction and safe exploitation of containers under high pressure</value>
+  </data>
+  <data name="moreText44" xml:space="preserve">
+    <value>Requirements for safety of steam and hot water boilers</value>
+  </data>
+  <data name="moreText45" xml:space="preserve">
+    <value>Requirements for industrial safety of natural gas distribution and consumption systems</value>
+  </data>
+  <data name="moreText46" xml:space="preserve">
+    <value>Electric Security</value>
+  </data>
+  <data name="moreText47" xml:space="preserve">
+    <value>We are practicing experts</value>
+  </data>
+  <data name="moreText48" xml:space="preserve">
+    <value>Safety rules for the operation of consumer electrical installations and the Rules for the technical operation of consumer electrical installations. Group 1-3.</value>
+  </data>
+  <data name="moreText49" xml:space="preserve">
+    <value>Safety rules for the operation of electrical installations of consumers and the Rules for the technical operation of consumer electrical installations. Group 4.</value>
+  </data>
+  <data name="moreText5" xml:space="preserve">
+    <value>TOP SERVICES FOR YOUR INDUSTRY</value>
+  </data>
+  <data name="moreText50" xml:space="preserve">
+    <value>Fire Safety</value>
+  </data>
+  <data name="moreText51" xml:space="preserve">
+    <value>Training in fire safety measures for employees of organizations, managers and those responsible for fire safety in organizations.</value>
+  </data>
+  <data name="moreText52" xml:space="preserve">
+    <value>Fire-technical minimum</value>
+  </data>
+  <data name="moreText53" xml:space="preserve">
+    <value>Occupational Safety and Health</value>
+  </data>
+  <data name="moreText54" xml:space="preserve">
+    <value>Learning for Standing examining committee</value>
+  </data>
+  <data name="moreText55" xml:space="preserve">
+    <value>Courses for Labour Codex, Occupational Safety and Health</value>
+  </data>
+  <data name="moreText56" xml:space="preserve">
+    <value>Basics of safety when working at height</value>
+  </data>
+  <data name="moreText57" xml:space="preserve">
+    <value>Online Portal</value>
+  </data>
+  <data name="moreText58" xml:space="preserve">
+    <value>You can read more about our modern approach and try yourself in our portal. We aim to provide the national and foreign companies with high training and consultin services following international quality standards.</value>
+  </data>
+  <data name="moreText59" xml:space="preserve">
+    <value>Secure your people</value>
+  </data>
+  <data name="moreText6" xml:space="preserve">
+    <value>with the already recognised international practice and approach. We are operating in different industrial sectors like Oil and Gas, Refinery, Power, Petrochemical and Pharma, offering a wide range of services in the field of electrical engineering, instrumentation and construction works.</value>
+  </data>
+  <data name="moreText60" xml:space="preserve">
+    <value>by their readiness</value>
+  </data>
+  <data name="moreText61" xml:space="preserve">
+    <value>We are the providers of international experience</value>
+  </data>
+  <data name="moreText62" xml:space="preserve">
+    <value>Global expertise from local partner</value>
+  </data>
+  <data name="moreText7" xml:space="preserve">
+    <value>CONSTRUCTION</value>
+  </data>
+  <data name="moreText8" xml:space="preserve">
+    <value>All activities are based on a Health-and-Safety culture: we believe on the Coaching on Safety before the Control on Safety.</value>
+  </data>
+  <data name="moreText9" xml:space="preserve">
+    <value>MECHANICAL COMPLETION &amp; COMMISSIONING</value>
+  </data>
+  <data name="textMore01" xml:space="preserve">
+    <value>ENGINEERING</value>
+  </data>
+  <data name="textMore1" xml:space="preserve">
+    <value>Engineering</value>
+  </data>
+  <data name="textMore10" xml:space="preserve">
+    <value>Detail design execution</value>
+  </data>
+  <data name="textMore100" xml:space="preserve">
+    <value>It’s a critical process, it’s bottleneck of all disciplines (Civil, Structure, Piping, E&amp;I, Painting) and all phases (Engineering, Procurement, Construction). Projects schedules are always tight, and the overlap with construction causes with huge impact on progress.</value>
+  </data>
+  <data name="textMore101" xml:space="preserve">
+    <value>Activities We Can Perform</value>
+  </data>
+  <data name="textMore102" xml:space="preserve">
+    <value>Sitek Caspian successfully completed several projects delivering to commissioning full-clean package of inspections, focusing on</value>
+  </data>
+  <data name="textMore103" xml:space="preserve">
+    <value>planning and coordination with construction to deliver within schedules for the benefit of the Project</value>
+  </data>
+  <data name="textMore104" xml:space="preserve">
+    <value>E&amp;I Calibration testing</value>
+  </data>
+  <data name="textMore105" xml:space="preserve">
+    <value>Pre-commissioning and Commissioning Activity</value>
+  </data>
+  <data name="textMore106" xml:space="preserve">
+    <value>Start-up follow up and assistance</value>
+  </data>
+  <data name="textMore107" xml:space="preserve">
+    <value>Achieve more</value>
+  </data>
+  <data name="textMore108" xml:space="preserve">
+    <value>not compromising safety</value>
+  </data>
+  <data name="textMore109" xml:space="preserve">
+    <value>SITEK cares about people that work with</value>
+  </data>
+  <data name="textMore11" xml:space="preserve">
+    <value>Bill of Quantities/Bill of Material</value>
+  </data>
+  <data name="textMore110" xml:space="preserve">
+    <value>Highest standard of commissioning from local partner</value>
+  </data>
+  <data name="textMore111" xml:space="preserve">
+    <value>Building</value>
+  </data>
+  <data name="textMore112" xml:space="preserve">
+    <value>strong relationships with suppliers</value>
+  </data>
+  <data name="textMore113" xml:space="preserve">
+    <value>Open-up to new possibilities</value>
+  </data>
+  <data name="textMore114" xml:space="preserve">
+    <value>With your local partner</value>
+  </data>
+  <data name="textMore115" xml:space="preserve">
+    <value>PROCUREMENT</value>
+  </data>
+  <data name="textMore116" xml:space="preserve">
+    <value>To meet the challenges of project’s schedule, we support Clients with Procurement Service. Clients are choosing to handover the procurement of small equipment, bulk material and items engineered by us, to speed-up the supply-chain. We can propose transparent and reliable procedures to allow a fast procurement within Clients’ policies. We give a strong support through knowledge of the market and a lean logistic management.</value>
+  </data>
+  <data name="textMore117" xml:space="preserve">
+    <value>Vendor list preparations</value>
+  </data>
+  <data name="textMore118" xml:space="preserve">
+    <value>Vendor evaluation</value>
+  </data>
+  <data name="textMore119" xml:space="preserve">
+    <value>Procurement Plan and Schedule Implementation</value>
+  </data>
+  <data name="textMore12" xml:space="preserve">
+    <value>Data sheet for E&amp;I and HVAC equipment</value>
+  </data>
+  <data name="textMore120" xml:space="preserve">
+    <value>Material requisition preparation and follow up</value>
+  </data>
+  <data name="textMore121" xml:space="preserve">
+    <value>Technical bid evaluation</value>
+  </data>
+  <data name="textMore122" xml:space="preserve">
+    <value>Purchase orders follow up</value>
+  </data>
+  <data name="textMore123" xml:space="preserve">
+    <value>Vendor progress Inspection</value>
+  </data>
+  <data name="textMore124" xml:space="preserve">
+    <value>Shipping schedule follow up</value>
+  </data>
+  <data name="textMore125" xml:space="preserve">
+    <value>Final Acceptance Test &amp; Final Certification follow-up</value>
+  </data>
+  <data name="textMore126" xml:space="preserve">
+    <value>We are</value>
+  </data>
+  <data name="textMore127" xml:space="preserve">
+    <value>accountable</value>
+  </data>
+  <data name="textMore128" xml:space="preserve">
+    <value>for results</value>
+  </data>
+  <data name="textMore129" xml:space="preserve">
+    <value>Balancing your needs and finance</value>
+  </data>
+  <data name="textMore13" xml:space="preserve">
+    <value>Vendor documentations follow up &amp; review</value>
+  </data>
+  <data name="textMore130" xml:space="preserve">
+    <value>Get the most from your supplier</value>
+  </data>
+  <data name="textMore131" xml:space="preserve">
+    <value>PRODUCTS CATALOGS</value>
+  </data>
+  <data name="textMore132" xml:space="preserve">
+    <value>To meet the challenges of project’s schedule, we support Clients with Procurement Service. Clients are choosing to handover the procurement of small equipment, bulk material and items engineered by us, to speed-up the supply-chain. We can propose transparent and reliable procedures to allow a fast procurement within Clients’ policies. We give a strong support through knowledge of the market and a lean logistic management.</value>
+  </data>
+  <data name="textMore133" xml:space="preserve">
+    <value>Cables Ladders</value>
+  </data>
+  <data name="textMore134" xml:space="preserve">
+    <value>PTR Type</value>
+  </data>
+  <data name="textMore135" xml:space="preserve">
+    <value>Perforated Bottom Cable Trays with Rimmed Ribs</value>
+  </data>
+  <data name="textMore136" xml:space="preserve">
+    <value>Perforated Bottom Cable Trays with Single Ribs</value>
+  </data>
+  <data name="textMore137" xml:space="preserve">
+    <value>Support and</value>
+  </data>
+  <data name="textMore138" xml:space="preserve">
+    <value>Fasteners</value>
+  </data>
+  <data name="textMore139" xml:space="preserve">
+    <value>Lighting Fixture Poles</value>
+  </data>
+  <data name="textMore14" xml:space="preserve">
+    <value>DCS/PLC/ESD sys. integration follow up</value>
+  </data>
+  <data name="textMore140" xml:space="preserve">
+    <value>General Catalog</value>
+  </data>
+  <data name="textMore141" xml:space="preserve">
+    <value>Catalog Overview</value>
+  </data>
+  <data name="textMore15" xml:space="preserve">
+    <value>F&amp;G sys. integrator follow up</value>
+  </data>
+  <data name="textMore16" xml:space="preserve">
+    <value>Construction Method of statements</value>
+  </data>
+  <data name="textMore17" xml:space="preserve">
+    <value>Construction follow up</value>
+  </data>
+  <data name="textMore18" xml:space="preserve">
+    <value>MC, Precommissioning &amp; Commissioning Method of Statement</value>
+  </data>
+  <data name="textMore19" xml:space="preserve">
+    <value>Red-mark up and As built execution</value>
+  </data>
+  <data name="textMore2" xml:space="preserve">
+    <value>Innovations</value>
+  </data>
+  <data name="textMore20" xml:space="preserve">
+    <value>Implementation</value>
+  </data>
+  <data name="textMore21" xml:space="preserve">
+    <value>Research &amp; Design</value>
+  </data>
+  <data name="textMore22" xml:space="preserve">
+    <value>Pushing forward your possibilities</value>
+  </data>
+  <data name="textMore23" xml:space="preserve">
+    <value>Local partner with worldwide expertise</value>
+  </data>
+  <data name="textMore3" xml:space="preserve">
+    <value>delivered by SITEK</value>
+  </data>
+  <data name="textMore30" xml:space="preserve">
+    <value>Our Expertise</value>
+  </data>
+  <data name="textMore31" xml:space="preserve">
+    <value>Social  Sustainability</value>
+  </data>
+  <data name="textMore32" xml:space="preserve">
+    <value>SITEK Caspian does not only depend on the skills, abilities and commitment of all its human resources, but also on the level of reliability, self-discipline, good sense and personal integrity owned and shared by all employees.</value>
+  </data>
+  <data name="textMore33" xml:space="preserve">
+    <value>SITEK Caspian wants to combine its aspirations of entrepreneurial success with the maintenance and development of a trust relationship with all those directly or indirectly involved or interested in the company’s activity, including customers, employees, suppliers and competitors.</value>
+  </data>
+  <data name="textMore34" xml:space="preserve">
+    <value>As a result, SITEK Caspian :</value>
+  </data>
+  <data name="textMore35" xml:space="preserve">
+    <value>Aims at providing its customers with quality products and services, safe and in compliance with requirements, at fair prices and at treating its customers with honesty and respect</value>
+  </data>
+  <data name="textMore36" xml:space="preserve">
+    <value>Achieves the objectives of profit growth, but at the same time carries out its activity paying special attention to the observance of the principles and rules contained in SITEK Caspian “Code of ethics”</value>
+  </data>
+  <data name="textMore37" xml:space="preserve">
+    <value>Provides its employees and collaborators with a working environment that allows their professional and personal aspirations to be met to the full while helping them to achieve competitive success</value>
+  </data>
+  <data name="textMore38" xml:space="preserve">
+    <value>Acts in an ethical manner as a responsible subject</value>
+  </data>
+  <data name="textMore39" xml:space="preserve">
+    <value>Treats its suppliers loyally, honestly and impartially</value>
+  </data>
+  <data name="textMore4" xml:space="preserve">
+    <value>Advanced solutions from skilled engineers</value>
+  </data>
+  <data name="textMore40" xml:space="preserve">
+    <value>Competences within the limits set forth by Law and SITEK Caspian “Code of ethics”</value>
+  </data>
+  <data name="textMore41" xml:space="preserve">
+    <value>Licenses &amp; Certifications</value>
+  </data>
+  <data name="textMore42" xml:space="preserve">
+    <value>Show all</value>
+  </data>
+  <data name="textMore43" xml:space="preserve">
+    <value>Construction</value>
+  </data>
+  <data name="textMore44" xml:space="preserve">
+    <value>Accreditations</value>
+  </data>
+  <data name="textMore45" xml:space="preserve">
+    <value>Quality</value>
+  </data>
+  <data name="textMore46" xml:space="preserve">
+    <value>Trainings</value>
+  </data>
+  <data name="textMore5" xml:space="preserve">
+    <value>We never stop driving technologies forward</value>
+  </data>
+  <data name="textMore50" xml:space="preserve">
+    <value>Solutions</value>
+  </data>
+  <data name="textMore51" xml:space="preserve">
+    <value>that you need</value>
+  </data>
+  <data name="textMore52" xml:space="preserve">
+    <value>Electrical and Instrumentation Activities</value>
+  </data>
+  <data name="textMore53" xml:space="preserve">
+    <value>From your local partner</value>
+  </data>
+  <data name="textMore54" xml:space="preserve">
+    <value>Top of the line</value>
+  </data>
+  <data name="textMore55" xml:space="preserve">
+    <value>Services</value>
+  </data>
+  <data name="textMore56" xml:space="preserve">
+    <value>Get reliable</value>
+  </data>
+  <data name="textMore57" xml:space="preserve">
+    <value>Equipment</value>
+  </data>
+  <data name="textMore58" xml:space="preserve">
+    <value>Achieving clients satisfaction by</value>
+  </data>
+  <data name="textMore59" xml:space="preserve">
+    <value>safely delivering quality projects.</value>
+  </data>
+  <data name="textMore6" xml:space="preserve">
+    <value>We provide with the full range of Engineering services, from the early stage (FEED) till the final red-line and as-built.</value>
+  </data>
+  <data name="textMore60" xml:space="preserve">
+    <value>Join Our Team</value>
+  </data>
+  <data name="textMore61" xml:space="preserve">
+    <value>Quality &amp; Safety</value>
+  </data>
+  <data name="textMore62" xml:space="preserve">
+    <value>We are the best</value>
+  </data>
+  <data name="textMore63" xml:space="preserve">
+    <value>service providers of feasibility and basic design review and execution, BoQ for installation, Data sheet for E&amp;I and HVAC equipment, Construction Method of statements, Vendor documentations follow up and much more…</value>
+  </data>
+  <data name="textMore64" xml:space="preserve">
+    <value>We execute</value>
+  </data>
+  <data name="textMore65" xml:space="preserve">
+    <value>great variety of tasks</value>
+  </data>
+  <data name="textMore66" xml:space="preserve">
+    <value>for our customers, including Vendor list preparations, Vendor evaluation, Procurement Plan and Schedule Implementation, Material requisition preparation, Shipping schedule follow up, and much more…</value>
+  </data>
+  <data name="textMore67" xml:space="preserve">
+    <value>Our expertise</value>
+  </data>
+  <data name="textMore68" xml:space="preserve">
+    <value>in construction services delivers you top results in Process Package and LER assemblies, Process Instrument and electrical equipment installation, F&amp;G ,Firefighting and Alarm system installation, and many more...</value>
+  </data>
+  <data name="textMore69" xml:space="preserve">
+    <value>We offer our services in E&amp;I Calibration testing, Pre-commissioning &amp; Commissioning activity, start up, follow up, assistance and much more…</value>
+  </data>
+  <data name="textMore7" xml:space="preserve">
+    <value>Activities we can perform</value>
+  </data>
+  <data name="textMore70" xml:space="preserve">
+    <value>Maintenance</value>
+  </data>
+  <data name="textMore71" xml:space="preserve">
+    <value>We support</value>
+  </data>
+  <data name="textMore72" xml:space="preserve">
+    <value>Failover systems</value>
+  </data>
+  <data name="textMore73" xml:space="preserve">
+    <value>Keep your solutions running at maximum potential</value>
+  </data>
+  <data name="textMore74" xml:space="preserve">
+    <value>24/7 support from your local partner</value>
+  </data>
+  <data name="textMore75" xml:space="preserve">
+    <value>MAINTENANCE</value>
+  </data>
+  <data name="textMore76" xml:space="preserve">
+    <value>Maintenance of complex systems requires highly-prepared personnel; we’re strong for the long experience gained both on-shore and offshore. Main activities we can perform:</value>
+  </data>
+  <data name="textMore77" xml:space="preserve">
+    <value>Activities We Can Perform</value>
+  </data>
+  <data name="textMore78" xml:space="preserve">
+    <value>Instrument functional calibration</value>
+  </data>
+  <data name="textMore79" xml:space="preserve">
+    <value>Programmed maintenance check			</value>
+  </data>
+  <data name="textMore8" xml:space="preserve">
+    <value>Feasibility design review</value>
+  </data>
+  <data name="textMore80" xml:space="preserve">
+    <value>Spare parts</value>
+  </data>
+  <data name="textMore81" xml:space="preserve">
+    <value>management</value>
+  </data>
+  <data name="textMore82" xml:space="preserve">
+    <value>Cathodic Protection programmed maintenance</value>
+  </data>
+  <data name="textMore83" xml:space="preserve">
+    <value>We monitor health</value>
+  </data>
+  <data name="textMore84" xml:space="preserve">
+    <value>of your infrastructure</value>
+  </data>
+  <data name="textMore85" xml:space="preserve">
+    <value>Providing the TOP experience with our services</value>
+  </data>
+  <data name="textMore86" xml:space="preserve">
+    <value>No work termination regardless of your work intensity</value>
+  </data>
+  <data name="textMore9" xml:space="preserve">
+    <value>Basic design review</value>
+  </data>
+  <data name="textMore90" xml:space="preserve">
+    <value>Top qualified</value>
+  </data>
+  <data name="textMore91" xml:space="preserve">
+    <value>project engineers</value>
+  </data>
+  <data name="textMore92" xml:space="preserve">
+    <value>We value safety the most</value>
+  </data>
+  <data name="textMore93" xml:space="preserve">
+    <value>Global expertise from your local partner</value>
+  </data>
+  <data name="textMore94" xml:space="preserve">
+    <value>MECHANICAL COMPLETION &amp; COMMISSIONING</value>
+  </data>
+  <data name="textMore95" xml:space="preserve">
+    <value>It is a process to deliver completed system to Commissioning for functional test. It has duty to collect all inspections and pack them to prove to Commissioning that construction is completed as per engineering and design.</value>
+  </data>
+  <data name="textMore96" xml:space="preserve">
+    <value>Commissioning</value>
+  </data>
+  <data name="textMore97" xml:space="preserve">
+    <value>It is a process of testing the system, certifying that functionality are in accordance with Final User’s expectation. Commissioning will then deliver the system to Final user.</value>
+  </data>
+  <data name="textMore98" xml:space="preserve">
+    <value>Why we offer Mechanical Completion &amp; Commissioning Services?</value>
+  </data>
+  <data name="textMore99" xml:space="preserve">
+    <value>Mechanical Completion &amp; Commissioning appear at the end of the project, not continuously during life-cycle of a company; on-field experience shows that for Company (Main Contractors and Oil Company) is not always convenient to deploy “in-house” but they outsource (database, coordinators, supervisors, technicians).</value>
+  </data>
+  <data name="textNoMore1" xml:space="preserve">
+    <value>Electrical and Instrumentation Works</value>
+  </data>
+  <data name="textNoMore10" xml:space="preserve">
+    <value>Execution of Electrical аnd Instrumentation works (lighting, power, heat tracing, F&amp;G, telecomm. Etc.) starting from detail documents review, installation, mechanical completion, pre-commissioning, commissioning.</value>
+  </data>
+  <data name="textNoMore11" xml:space="preserve">
+    <value>Execution of Electrical and Instrumentation works (lighting, power, heat tracing, F&amp;G, telecomm, etc.) starting from detail documents review, installation, mechanical completion, pre-commissioning, commissioning.</value>
+  </data>
+  <data name="textNoMore12" xml:space="preserve">
+    <value>New Wellhead Area K&amp;L Line</value>
+  </data>
+  <data name="textNoMore13" xml:space="preserve">
+    <value>Execution of Electrical And Instrumentation works (lighting, power , heat tracing, Instrument installation hook-up ,pneumatic and hydraulic tubing laying and connection, VSD control panel and RTU system, etc.) starting from detail documents review, installation, mechanical completion, pre-commissioning, commissioning</value>
+  </data>
+  <data name="textNoMore14" xml:space="preserve">
+    <value>JUDR Drilling rig</value>
+  </data>
+  <data name="textNoMore15" xml:space="preserve">
+    <value>Execution of Electrical and Instrumentation works (lighting, power, heat tracing, F&amp;G, telecomm, PAGA, SCADA, Instrument hook up, pneumatic &amp; hydraulic lines, FOC, TVSAT,) starting from detail documents review, installation, mechanical completion, pre-commissioning, commissioning</value>
+  </data>
+  <data name="textNoMore16" xml:space="preserve">
+    <value>Execution of Electrical cathodic protection system maintenance, supervision of OPF site equipment providing measurement checks and corrective action in case of failure. Dismantling of equipment out of service, refurbishment and reinstallation.</value>
+  </data>
+  <data name="textNoMore17" xml:space="preserve">
+    <value>Execution of Electrical cathodic protection system maintenance, supervision of all site equipment providing measurement checks and corrective action in case of failure. Dismantling of equipment out of service, refurbishment and reinstallation.</value>
+  </data>
+  <data name="textNoMore18" xml:space="preserve">
+    <value>Execution of Electrical and Instrumentation and Cathodic Protection system supply and installation</value>
+  </data>
+  <data name="textNoMore19" xml:space="preserve">
+    <value>Execution of IECEX/ATEX Electrical system maintenance, supervision of all site equipment providing measurement checks and corrective action in case of failure. Dismantling of equipment out of service, refurbishment and reinstallation</value>
+  </data>
+  <data name="textNoMore2" xml:space="preserve">
+    <value>Electrical Cathodic Protection</value>
+  </data>
+  <data name="textNoMore20" xml:space="preserve">
+    <value>Execution of Electrical and Instrumentation works (lighting, power, heat tracing, F&amp;G, telecomm. Etc.) starting from detail documents review, installation, mechanical completion, pre-commissioning, commissioning.</value>
+  </data>
+  <data name="textNoMore22" xml:space="preserve">
+    <value>Execution of HVAC system maintenance, supervision of all site equipment providing measurement checks and corrective action in case of failure. Dismantling of equipment out of service, refurbishment and reinstallation.</value>
+  </data>
+  <data name="textNoMore23" xml:space="preserve">
+    <value>Execution of Electrical And Instrumentation works (lighting, power, heat tracing, Instrument installation hook-up, etc.) starting from detail documents review, installation, mechanical completion, pre-commissioning, commissioning.</value>
+  </data>
+  <data name="textNoMore24" xml:space="preserve">
+    <value>Execution of HVAC engineering, and Supervision to Installation works for refurbished LCR KTL room.</value>
+  </data>
+  <data name="textNoMore25" xml:space="preserve">
+    <value>Execution of Electrical and Instrumentation installation works, MC and Punch List clear out, Pre-commissioning and commissioning</value>
+  </data>
+  <data name="textNoMore26" xml:space="preserve">
+    <value>Execution of multidisciplinary engineering including Structural, architectural, electrical, instrumentation, HVAC, F&amp;G and Firefighting system. Procurement and supply of all material and HVAC, F&amp;G, Firefighting, systems. Erection and assembly of structural parts, welding, sand blasting, painting, and insulation. Electrical and Instrumentation installation works, Installation of free issue Panels, MC and Punch List clear out, Pre-commissioning and commissioning.</value>
+  </data>
+  <data name="textNoMore27" xml:space="preserve">
+    <value>Execution of HVAC engineering, and Supervision to Installation works for refurbished LCR KTL room</value>
+  </data>
+  <data name="textNoMore28" xml:space="preserve">
+    <value>Execution of Electrical And Instrumentation engineering, procurement of material, Installation worksworks (lighting, power, heat tracing, F&amp;G, telecomm,etc) starting from basic  documents review, mechanical completion, pre-commissioning, commissioning.</value>
+  </data>
+  <data name="textNoMore3" xml:space="preserve">
+    <value>Procurement of Materials</value>
+  </data>
+  <data name="textNoMore4" xml:space="preserve">
+    <value>Mechanical Completion</value>
+  </data>
+  <data name="textNoMore5" xml:space="preserve">
+    <value>Commissioning</value>
+  </data>
+  <data name="textNoMore6" xml:space="preserve">
+    <value>Dismantling of equipment</value>
+  </data>
+  <data name="textNoMore7" xml:space="preserve">
+    <value>HVAC engineering</value>
+  </data>
+  <data name="textNoMore8" xml:space="preserve">
+    <value>Castoro12 and Castoro16 refurbishment barge</value>
+  </data>
+  <data name="textNoMore21" xml:space="preserve">
+    <value>Mechanical completion for E&amp;I systems.</value>
+  </data>
+  <data name="textNoMore29" xml:space="preserve">
+    <value>Execution of Electrical And Instrumentation works (lighting, power, heat tracing, Instrument installation hook-up ,pneumatic and hydraulic tubing laying and connection, VSD control panel and RTU system, etc.) starting from detail documents review, installation, mechanical completion, pre-commissioning, commissioning</value>
+  </data>
+  <data name="AboutMain1" xml:space="preserve">
+    <value>SITEK Caspian has been delivering top quality electrical, instrumentation and control engineering services to leading international clients in Kazakhstan projects since 2011. The Company was created on the initiative of </value>
+  </data>
+  <data name="AboutMain2" xml:space="preserve">
+    <value>Our team has international experience and expertise to deliver work at all stages of production - from early phases of the project to its final stage of commissioning and start-up.</value>
+  </data>
+  <data name="AboutMainAnd" xml:space="preserve">
+    <value>and</value>
+  </data>
+  <data name="aboutMore81" xml:space="preserve">
+    <value>Sitek developed strong experience in Cathodic Protection Design, Procurement, Construction and Commissioning through wide range of project.</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="Aktau" xml:space="preserve">
+    <value>Aktau</value>
+  </data>
+  <data name="AktauData" xml:space="preserve">
+    <value>29A Micro District, BC Nur Plaza, Aktau. Kazakhstan. 130000</value>
+  </data>
+  <data name="Almaty" xml:space="preserve">
+    <value>Almaty</value>
+  </data>
+  <data name="AlmatyData" xml:space="preserve">
+    <value>77/7 Alfarabi avenue, Almaty. Kazakhstan. 050040</value>
+  </data>
+  <data name="Atyrau" xml:space="preserve">
+    <value>Atyrau</value>
+  </data>
+  <data name="AtyrauData" xml:space="preserve">
+    <value>55 Aytike Bi street, Atyrau. Kazakhstan. 060011</value>
+  </data>
+  <data name="Fax" xml:space="preserve">
+    <value>Fax</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="send" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="ServicesProcure" xml:space="preserve">
+    <value>Clients are choosing to handover the procurement of small equipment, bulk material and items engineered by us, to speed-up the supply-chain. </value>
+  </data>
+  <data name="Website" xml:space="preserve">
+    <value>Website</value>
+  </data>
+  <data name="ProjectsHeader" xml:space="preserve">
+    <value>Our Projects</value>
+  </data>
+  <data name="CareerChoose" xml:space="preserve">
+    <value>Choose</value>
+  </data>
+  <data name="CareerUpload" xml:space="preserve">
+    <value>Upload</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Search...</value>
+  </data>
+  <data name="Brochure" xml:space="preserve">
+    <value>Detailed Brochures</value>
+  </data>
+  <data name="BrochureText" xml:space="preserve">
+    <value>In service brochures you will find the most detailed description of our services.</value>
+  </data>
+  <data name="FooterMap" xml:space="preserve">
+    <value>Site Map</value>
+  </data>
+  <data name="FooterRights" xml:space="preserve">
+    <value>All Rights Reserved</value>
+  </data>
+  <data name="FooterSocial" xml:space="preserve">
+    <value>Our groups</value>
+  </data>
+  <data name="FooterSubscribe" xml:space="preserve">
+    <value>Get our news</value>
+  </data>
+  <data name="Subscribe" xml:space="preserve">
+    <value>Subscribe</value>
+  </data>
+  <data name="CareerVacancies" xml:space="preserve">
+    <value>Our Vacancies</value>
+  </data>
+  <data name="ContactDescr" xml:space="preserve">
+    <value>We have three main offices in Kazakhstan - Atyrau, Aktau and Almaty. Our team has the international experience and allows us to offer customers the performance of work at all stages of production, from the early phases of the project until its final stage of commissioning and start-up. Feel free to submit your CV or any other inquires. We are open for partnership and collaboration</value>
+  </data>
+  <data name="ContactDesc" xml:space="preserve">
+    <value>We are modern and rapidly developing company that always looking for new collaborations and partnerships.</value>
+  </data>
+  <data name="EnginDescr" xml:space="preserve">
+    <value>We provide with the full range of Engineering services, from the early stage (FEED) till the final red-line and as-built. Our approach is to fit needs of the Client, and we promote the integration of engineering team and site-engineering to shorter the chain of development of the design. Engineering services that we can provide:</value>
+  </data>
+  <data name="LangEn" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="LangKz" xml:space="preserve">
+    <value>Kazakh</value>
+  </data>
+  <data name="LangRu" xml:space="preserve">
+    <value>Russian</value>
+  </data>
+  <data name="SubmitMessage" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="ContactEmailFormat" xml:space="preserve">
+    <value>Incorrect format</value>
+  </data>
+  <data name="ContactFileVal" xml:space="preserve">
+    <value>File is not attached</value>
+  </data>
+  <data name="ContactMessageVal" xml:space="preserve">
+    <value>Please enter your message</value>
+  </data>
+</root>

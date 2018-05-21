@@ -1,0 +1,263 @@
+﻿@using SITEK.Helpers
+@model SITEK.Models.SubcscribeModel
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="SITEK - Corporate website">
+        <meta name="author" content="Qaimaq Company">
+        <title>SITEK | @ViewBag.Title</title>
+
+        @Styles.Render("~/Content/css")
+        @Scripts.Render("~/bundles/modernizr")
+        <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+        <link href="~/Content/settings.css" rel="stylesheet" />
+        <link href="~/Content/Site.css" rel="stylesheet" />
+        <link href="~/Content/responsive.css" rel="stylesheet" />
+        <link href="~/Content/animate.min.css" rel="stylesheet" />
+        <link href="~/Content/cyan.css" rel="stylesheet" />
+        <link href="~/Content/fontello.css" rel="stylesheet" />
+        <link href="~/Content/fonts/google-fonts.css" rel="stylesheet" />
+        <link href="~/Content/fonts/google-fonts2.css" rel="stylesheet" />
+        
+        <!--Tipue-->
+        <link href="~/Content/Tipue/tipuesearch.css" rel="stylesheet" />
+
+    </head>
+<body>
+    
+    <!--Pop-up-->
+    <div class="popup" data-popup="popup-1">
+        <div class="popup-inner" id="sitemap">
+            <h2 style="margin:20px">@SITEK.Resources.Resource.FooterMap</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <ul>
+                            <li><strong>@Html.ActionLink(SITEK.Resources.Resource.menu1, "Index", "Home")</strong></li>
+                            <li><strong>@Html.ActionLink(SITEK.Resources.Resource.menu2, "About", "Home")</strong></li>
+                            <li>
+                                <strong>@Html.ActionLink(SITEK.Resources.Resource.menu3, "Services", "Home")</strong>
+                                <ul style="margin-left: 25px">
+                                    <li>@Html.ActionLink(SITEK.Resources.Resource.indWelcome3, "Engineering", "Home")</li>
+                                    <li>@Html.ActionLink(SITEK.Resources.Resource.indWelcome5, "Procurement", "Home")</li>
+                                    <li>@Html.ActionLink(SITEK.Resources.Resource.indWelcome7, "Construction", "Home")</li>
+                                    <li>@Html.ActionLink(SITEK.Resources.Resource.indWelcome9, "MechCompletion", "Home")</li>
+                                    <li>@Html.ActionLink(SITEK.Resources.Resource.indWelcome11, "Maintenance", "Home")</li>
+                                    <li>@Html.ActionLink(SITEK.Resources.Resource.indWelcome13, "Training", "Home")</li>
+                                </ul>
+                            </li>
+                            <li><strong>@Html.ActionLink(SITEK.Resources.Resource.menu4, "Projects", "Home")</strong></li>
+                            <li><strong>@Html.ActionLink("HSEQ", "Hseq", "Home")</strong></li>
+                            <li><strong>@Html.ActionLink(SITEK.Resources.Resource.menu5, "Career", "Home")</strong></li>
+                            <li><strong>@Html.ActionLink(SITEK.Resources.Resource.menu6, "Contact", "Home")</strong></li>
+                        </ul>   
+                    </div>
+                </div>
+            </div>
+            <a class="popup-close" data-popup-close="popup-1" href="#">x</a>
+        </div>
+    </div>
+<div id="container">
+    <header class="clearfix">
+        <div class="top-bar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9">
+                        <ul class="contact-details">
+                            <li class="Languages">@Url.LangSwitcher(@SITEK.Resources.Resource.LangEn, ViewContext.RouteData, "En")</li>
+                            <li class="Languages">@Url.LangSwitcher(@SITEK.Resources.Resource.LangKz, ViewContext.RouteData, "Kk")</li>
+                            <li class="Languages">@Url.LangSwitcher(@SITEK.Resources.Resource.LangRu, ViewContext.RouteData, "Ru")</li>
+                            <li><a href="tel:+77122272072"><i class="icon-mobile-2"></i> +7 712 227 2072</a></li>
+                            <li><a href="tel:+77122272062"><i class="icon-mobile-2"></i> +7 712 227 2062</a></li>
+                            <li><a href="tel:+77292305161"><i class="icon-mobile-2"></i> +7 729 230 5161</a></li>
+                            <li><a href="mailto:infor@sitekcaspian.kz"><i class="icon-mail-2"></i>info@sitekcaspian.kz</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <ul class="social-list">
+                            <li>
+                                <a class="facebook sh-tooltip" data-placement="bottom" target="_blank" title="Facebook" href="https://www.facebook.com/SitekCaspian/"><i class="icon-facebook-2"></i></a>
+                            </li>
+                            <li>
+                                <a class="linkdin sh-tooltip" data-placement="bottom" target="_blank" title="Linkedin" href="https://www.linkedin.com/in/sitek-caspian-sitek-caspian-955948102/"><i class="icon-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="navbar navbar-default navbar-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <i class="icon-menu-1"></i>
+                    </button>
+                    <a href="@Url.Action("Index", "Home")" class="navbar-brand"><img alt="" src="~/Images/SITEK.png" style="height: 43px"></a>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <div class="search-side">
+                        <a href="#" class="show-search"><i class="icon-search-1"></i></a>
+                        <div class="search-form">
+                            <form autocomplete="off" role="search" method="get" action="@Url.Action("SearchResult", "Home")">
+                                <div class="tipue_search_right">
+                                    <input type="text" name="q" id="tipue_search_input" placeholder=@SITEK.Resources.Resource.Search pattern=".{3,}" title="At least 3 characters" required>
+                                </div>
+                                <div style="clear: both;"></div>
+                            </form>
+                        </div>
+                    </div>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>@Html.ActionLink(SITEK.Resources.Resource.menu1, "Index", "Home")</li>
+                        <li>@Html.ActionLink(SITEK.Resources.Resource.menu2, "About", "Home")</li>
+                        <li>
+                            @Html.ActionLink(SITEK.Resources.Resource.menu3, "Services", "Home")
+                            <ul class="dropdown">
+                                <li>@Html.ActionLink(SITEK.Resources.Resource.indWelcome3, "Engineering", "Home")</li>
+                                <li>@Html.ActionLink(SITEK.Resources.Resource.indWelcome5, "Procurement", "Home")</li>
+                                <li>@Html.ActionLink(SITEK.Resources.Resource.indWelcome7, "Construction", "Home")</li>
+                                <li>@Html.ActionLink(SITEK.Resources.Resource.indWelcome9, "MechCompletion", "Home")</li>
+                                <li>@Html.ActionLink(SITEK.Resources.Resource.indWelcome11, "Maintenance", "Home")</li>
+                                <li>@Html.ActionLink(SITEK.Resources.Resource.indWelcome13, "Training", "Home")</li>
+                            </ul>
+                        </li>
+                        <li>@Html.ActionLink(SITEK.Resources.Resource.menu4, "Projects", "Home")</li>
+                        <li>@Html.ActionLink("HSEQ", "Hseq", "Home")</li>
+                        <li>@Html.ActionLink(SITEK.Resources.Resource.menu5, "Career", "Home")</li>
+                        <li>@Html.ActionLink(SITEK.Resources.Resource.menu6, "Contact", "Home")</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+    @RenderBody()
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="footer-widget contact-widget">
+                        <h4>@SITEK.Resources.Resource.Atyrau<span class="head-line"></span></h4>
+                        <ul>
+                            <li><span>@SITEK.Resources.Resource.Address:</span> @SITEK.Resources.Resource.AtyrauData</li>
+                            <li><a href="tel:+77122272072"><span>@SITEK.Resources.Resource.Phone:</span> +7 712 2272072</a></li>
+                            <li><a href="tel:+77122272072"><span>@SITEK.Resources.Resource.Fax:</span> +7 712 2272072</a></li>
+                            <li><a href="mailto:info@sitekcaspian.kz"><span>Email:</span> info@sitekcaspian.kz</a></li>
+                            <li><a href="https://sitekcaspian.com"><span>@SITEK.Resources.Resource.Website:</span> www.sitekcaspian.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="footer-widget contact-widget">
+                        <h4>@SITEK.Resources.Resource.Aktau<span class="head-line"></span></h4>
+                        <ul>
+                            <li><span>@SITEK.Resources.Resource.Address:</span> @SITEK.Resources.Resource.AktauData</li>
+                            <li><a href="tel:+77292305161"><span>@SITEK.Resources.Resource.Phone:</span> +7 729 2305161</a></li>
+                            <li><a href="tel:+77292305161"><span>@SITEK.Resources.Resource.Fax:</span> +7 729 2305161</a></li>
+                            <li><a href="mailto:info@sitekcaspian.kz"><span>Email:</span> info@sitekcaspian.kz</a></li>
+                            <li><a href="https://sitekcaspian.com"><span>@SITEK.Resources.Resource.Website:</span> www.sitekcaspian.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="footer-widget contact-widget">
+                        <h4>@SITEK.Resources.Resource.Almaty<span class="head-line"></span></h4>
+                        <ul>
+                            <li><span>@SITEK.Resources.Resource.Address:</span> @SITEK.Resources.Resource.AlmatyData</li>
+                            <li><a href="tel:+77273307008"><span>@SITEK.Resources.Resource.Phone:</span> +7 727 3307008</a></li>
+                            <li><a href="tel:+77273307008"><span>@SITEK.Resources.Resource.Fax:</span> +7 727 3307008</a></li>
+                            <li><a href="mailto:info@sitekcaspian.kz"><span>Email:</span> info@sitekcaspian.kz</a></li>
+                            <li><a href="https://sitekcaspian.com"><span>@SITEK.Resources.Resource.Website:</span> www.sitekcaspian.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="footer-widget mail-subscribe-widget">
+                        <h4>@SITEK.Resources.Resource.FooterSubscribe<span class="head-line"></span></h4>
+                        @using (Html.BeginForm("Subscribe", "Home", null, FormMethod.Post, new { enctype = "multipart/form-data" }))
+                        {
+                            @Html.AntiForgeryToken()
+
+                            @Html.TextBoxFor(m => m.FromEmail, new {@class = "form-control"})
+                            @Html.ValidationMessageFor(m => m.FromEmail)
+                            <input type="submit" style="margin-top: 10px" class="btn btn-default" value="@SITEK.Resources.Resource.Subscribe"/>
+                        }
+                    </div>
+                    <div class="footer-widget social-widget">
+                        <h4>@SITEK.Resources.Resource.FooterSocial<span class="head-line"></span></h4>
+                        <ul class="social-icons">
+                            <li>
+                                <a class="facebook" href="https://www.facebook.com/SitekCaspian/" target="_blank"><i class="icon-facebook-2"></i></a>
+                            </li>
+                            <li>
+                                <a class="linkdin" href="https://www.linkedin.com/in/sitek-caspian-sitek-caspian-955948102/" target="_blank"><i class="icon-linkedin-1"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright-section">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p><a href="https://qaimaq.com">© 2017 Qaimaq - @SITEK.Resources.Resource.FooterRights</a>
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <ul class="footer-nav">
+                            <li><a href="#" data-popup-open="popup-1">@SITEK.Resources.Resource.FooterMap</a></li>
+                            <li>@Html.ActionLink(@SITEK.Resources.Resource.menu6, "Contact", "Home")</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+    <a href="tel:+77122272072" class="back-to-top2">
+        <i class="icon-phone icon-medium-effect icon-effect-1"></i>
+    </a>
+    <a href="#" class="back-to-top">
+        <i class="icon-up-open-1"></i>
+    </a>
+    <div id="loader">
+        <div class="spinner">
+            <div class="dot1"></div>
+            <div class="dot2"></div>
+        </div>
+    </div>
+    <script type="text/javascript" src="~/Scripts/jquery.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/jquery.migrate.js"></script>
+    <script type="text/javascript" src="~/Scripts/modernizrr.js"></script>
+    @Scripts.Render("~/bundles/bootstrap")
+    <script type="text/javascript" src="~/Scripts/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="~/Scripts/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/nivo-lightbox.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/jquery.isotope.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/jquery.appear.js"></script>
+    <script type="text/javascript" src="~/Scripts/count-to.js"></script>
+    <script type="text/javascript" src="~/Scripts/jquery.textillate.js"></script>
+    <script type="text/javascript" src="~/Scripts/jquery.lettering.js"></script>
+    <script type="text/javascript" src="~/Scripts/jquery.easypiechart.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/jquery.nicescroll.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/jquery.parallax.js"></script>
+    <script type="text/javascript" src="~/Scripts/mediaelement-and-player.js"></script>
+    <script type="text/javascript" src="~/Scripts/jquery.themepunch.plugins.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/jquery.themepunch.revolution.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/script.js"></script>
+    <!--Tipue-->
+    <script src="~/Scripts/Tipue/tipuesearch_content.js"></script>
+    <script src="~/Scripts/Tipue/tipuesearch_set.js"></script>
+    <script src="~/Scripts/Tipue/tipuesearch.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#tipue_search_input').tipuesearch();
+        });
+    </script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+
+</body>
+@RenderSection("scripts", required: false)
+</html>            

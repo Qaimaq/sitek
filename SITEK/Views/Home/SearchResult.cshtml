@@ -1,0 +1,54 @@
+﻿
+@{
+    ViewBag.Title = @SITEK.Resources.Resource.Search;
+}
+<div class="row ServiceBanner" id="ServiceBanner13">
+    <div class="container">
+        <div class="col-md-6 serviceHText">
+            <div class="tp-caption uppercase big_font_size boldest_font_weight dark_font_color sft start"
+                 data-x="0"
+                 data-y="125"
+                 data-speed="300"
+                 data-start="1600"
+                 data-easing="easeOutExpo">
+                <span class="accent-color">@SITEK.Resources.Resource.moreText59</span><br> @SITEK.Resources.Resource.moreText60
+            </div>
+            <div class="tp-caption medium_font_size regular_font_weight dark_font_color sfl start"
+                 data-x="0"
+                 data-y="208"
+                 data-speed="300"
+                 data-start="1900"
+                 data-easing="easeOutExpo">
+                @SITEK.Resources.Resource.moreText61
+            </div>
+            <div class="tp-caption mini_font_size light_font_weight gray_font_color sfr start"
+                 data-x="0"
+                 data-y="250"
+                 data-speed="300"
+                 data-start="2200"
+                 data-easing="easeOutExpo">
+                @SITEK.Resources.Resource.moreText62<br />
+            </div>
+            <div class="tp-caption sfb start"
+                 data-x="0"
+                 data-y="314"
+                 data-speed="300"
+                 data-start="2500"
+                 data-easing="easeOutExpo">
+                <a href="tel:+77122272062" class="btn-system btn-medium">@SITEK.Resources.Resource.indWelcome211</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="content" class="full-sections">
+    <div class="section" style="padding-top:60px; padding-bottom:30px; border-top:0; border-bottom:0; background:#fff">
+        <div class="container">
+            <form action="@Url.Action("SearchResult", "Home")">
+                <div class="tipue_search_right"><input type="text" name="q" id="tipue_search_input" pattern=".{3,}" title="At least 3 characters" required>
+                </div>
+                <div style="clear: both;"></div>
+            </form>
+            <div id="tipue_search_content"></div>
+        </div>
+    </div>
+</div>

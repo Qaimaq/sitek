@@ -1,0 +1,1502 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="aboutFounder1" xml:space="preserve">
+    <value>Қасым Абжанов, Негізін Қалаушы, Директорлар кеңесінің мүшесі</value>
+  </data>
+  <data name="aboutFounder2" xml:space="preserve">
+    <value>Давиде Певерати, Президент, Директорлар кеңесінің мүшесі</value>
+  </data>
+  <data name="aboutHeader1" xml:space="preserve">
+    <value>Біз туралы</value>
+  </data>
+  <data name="aboutHeader10" xml:space="preserve">
+    <value>Әзірше бизде бос орын жоқ</value>
+  </data>
+  <data name="aboutHeader11" xml:space="preserve">
+    <value>Біз мамандарды жалдаймыз </value>
+  </data>
+  <data name="aboutHeader12" xml:space="preserve">
+    <value>SITEK үшін</value>
+  </data>
+  <data name="aboutHeader13" xml:space="preserve">
+    <value>SITEK командасының</value>
+  </data>
+  <data name="aboutHeader14" xml:space="preserve">
+    <value>бірі </value>
+  </data>
+  <data name="aboutHeader15" xml:space="preserve">
+    <value>бол</value>
+  </data>
+  <data name="aboutHeader2" xml:space="preserve">
+    <value>Біз кәсіби маманбыз</value>
+  </data>
+  <data name="aboutHeader3" xml:space="preserve">
+    <value>Компания туралы</value>
+  </data>
+  <data name="aboutHeader4" xml:space="preserve">
+    <value>Біздің миссиямыз</value>
+  </data>
+  <data name="aboutHeader5" xml:space="preserve">
+    <value>Біздің көзқарасымыз бен құндылықтарымыз</value>
+  </data>
+  <data name="aboutHeader6" xml:space="preserve">
+    <value>Біздің клиенттеріміз</value>
+  </data>
+  <data name="aboutHeader7" xml:space="preserve">
+    <value>Бос орындар</value>
+  </data>
+  <data name="aboutHeader9" xml:space="preserve">
+    <value>Кадрлар бөлімі</value>
+  </data>
+  <data name="AboutMain1" xml:space="preserve">
+    <value>2011-ші жылдан бастап SITEK CASPIAN сапалы электрлік және инжинирингтік бақылау қызметтерін ұсынып келеді. SITEK Caspian Қазақстандық холдингтың бастамасымен құрылған компания</value>
+  </data>
+  <data name="AboutMain2" xml:space="preserve">
+    <value>Біздің топ өндірicтің әр кезеңінде қызмет көрсете алатын халықаралық тәжірибеcі мен сараптамасы бар, яғни жобаның ең алғашқы кезеңінен бастап оның іске қосылуына дейін жұмысты орындай алады. </value>
+  </data>
+  <data name="AboutMainAnd" xml:space="preserve">
+    <value>және</value>
+  </data>
+  <data name="aboutMore1" xml:space="preserve">
+    <value>Біздің мақсатымыз</value>
+  </data>
+  <data name="aboutMore10" xml:space="preserve">
+    <value>Өңдеу пакеті және Жергілікті Жабдық бөлмесінің жинағы
+</value>
+  </data>
+  <data name="aboutMore11" xml:space="preserve">
+    <value>Өңдеу құралдары мен электр жабдықтарын орнату</value>
+  </data>
+  <data name="aboutMore12" xml:space="preserve">
+    <value>F&amp;G, Өрт сөндіру және Дабыл қағу жүйесін орнату</value>
+  </data>
+  <data name="aboutMore13" xml:space="preserve">
+    <value>DCS/PLC/ESD/Telecom/CCTV/FOC Sys орнату</value>
+  </data>
+  <data name="aboutMore14" xml:space="preserve">
+    <value>Жылуды қадағалау жүйесін орнату</value>
+  </data>
+  <data name="aboutMore15" xml:space="preserve">
+    <value>Механикалық аяқтауды басқару</value>
+  </data>
+  <data name="aboutMore16" xml:space="preserve">
+    <value>Катодтық қорғаныс</value>
+  </data>
+  <data name="aboutMore17" xml:space="preserve">
+    <value>HVAC жүйесі</value>
+  </data>
+  <data name="aboutMore18" xml:space="preserve">
+    <value>Электр, су жүйелеріне қосылу жұмыстары</value>
+  </data>
+  <data name="aboutMore19" xml:space="preserve">
+    <value>Біз құрлықта жұмыс жасаймыз</value>
+  </data>
+  <data name="aboutMore2" xml:space="preserve">
+    <value>Нәтижелерді уақытында жеткіземіз</value>
+  </data>
+  <data name="aboutMore20" xml:space="preserve">
+    <value>соңдай-ақ оффшорда да қызмет көрсетеміз</value>
+  </data>
+  <data name="aboutMore21" xml:space="preserve">
+    <value>Біз ең күрделі жобаларға сертификатталғанбыз.</value>
+  </data>
+  <data name="aboutMore22" xml:space="preserve">
+    <value>Әлемдегі ең үлкен теңізге шығу жолы жоқ елдегі теңіздік сараптама</value>
+  </data>
+  <data name="aboutMore23" xml:space="preserve">
+    <value>Соңғы жобалар</value>
+  </data>
+  <data name="aboutMore24" xml:space="preserve">
+    <value>Castoro12 және Castoro16</value>
+  </data>
+  <data name="aboutMore25" xml:space="preserve">
+    <value>жөндеу баржасы</value>
+  </data>
+  <data name="aboutMore26" xml:space="preserve">
+    <value>Қорытынды клиент:</value>
+  </data>
+  <data name="aboutMore27" xml:space="preserve">
+    <value>Бас мердігер:</value>
+  </data>
+  <data name="aboutMore28" xml:space="preserve">
+    <value>ERSAI</value>
+  </data>
+  <data name="aboutMore29" xml:space="preserve">
+    <value>DSME</value>
+  </data>
+  <data name="aboutMore3" xml:space="preserve">
+    <value>SITEK-пен бірге шығындарыңызды төмендетіңіз</value>
+  </data>
+  <data name="aboutMore30" xml:space="preserve">
+    <value>SAIPEM</value>
+  </data>
+  <data name="aboutMore31" xml:space="preserve">
+    <value>MAERSK</value>
+  </data>
+  <data name="aboutMore32" xml:space="preserve">
+    <value>KCOI</value>
+  </data>
+  <data name="aboutMore33" xml:space="preserve">
+    <value>KMG Drilling &amp; Services</value>
+  </data>
+  <data name="aboutMore34" xml:space="preserve">
+    <value>DIETSMANN</value>
+  </data>
+  <data name="aboutMore35" xml:space="preserve">
+    <value>NCOC</value>
+  </data>
+  <data name="aboutMore36" xml:space="preserve">
+    <value>Жамбыл Суасты</value>
+  </data>
+  <data name="aboutMore37" xml:space="preserve">
+    <value>Бұрғылау Баржасы</value>
+  </data>
+  <data name="aboutMore38" xml:space="preserve">
+    <value>Жаңа Ұңғыма басының Алаңы</value>
+  </data>
+  <data name="aboutMore39" xml:space="preserve">
+    <value>K &amp; L Линиясы</value>
+  </data>
+  <data name="aboutMore4" xml:space="preserve">
+    <value>Біз шығындарыңызды азайтамыз және тапсырыстарыңызды орындаймыз</value>
+  </data>
+  <data name="aboutMore40" xml:space="preserve">
+    <value>JUDR</value>
+  </data>
+  <data name="aboutMore41" xml:space="preserve">
+    <value>Бұрғылау қондырғысы</value>
+  </data>
+  <data name="aboutMore42" xml:space="preserve">
+    <value>Жамбыл Су асты</value>
+  </data>
+  <data name="aboutMore43" xml:space="preserve">
+    <value>Бұрғылау Баржаcы</value>
+  </data>
+  <data name="aboutMore44" xml:space="preserve">
+    <value>Жамбыл су асты бұрғылау баржалар</value>
+  </data>
+  <data name="aboutMore45" xml:space="preserve">
+    <value>Қарабатандағы құрлықтағы нысандар - ECP техникалық қызмет көрсету кезеңі 1</value>
+  </data>
+  <data name="aboutMore46" xml:space="preserve">
+    <value>Қарабатандағы құрлықтағы нысандар - ECP техникалық қызмет көрсету кезеңі 2</value>
+  </data>
+  <data name="aboutMore47" xml:space="preserve">
+    <value>NCOC</value>
+  </data>
+  <data name="aboutMore48" xml:space="preserve">
+    <value>Қарабатандағы Қышқыл Мұнай және Газ құбыры</value>
+  </data>
+  <data name="aboutMore49" xml:space="preserve">
+    <value>Bonatti</value>
+  </data>
+  <data name="aboutMore490" xml:space="preserve">
+    <value>Қарабатандағы құрлықтағы нысандар-IECEХ жабдықтар &amp; өлшеу жабдықтарына техникалық қызмет көрсету</value>
+  </data>
+  <data name="aboutMore491" xml:space="preserve">
+    <value>Қашаған жобасы «D-айленд»</value>
+  </data>
+  <data name="aboutMore492" xml:space="preserve">
+    <value>Tozzi Қазақстан</value>
+  </data>
+  <data name="aboutMore493" xml:space="preserve">
+    <value>Қашаған Оффшор нысандары HVAC құрылғысына техникалық қызмет көрсету</value>
+  </data>
+  <data name="aboutMore494" xml:space="preserve">
+    <value>KCOI New Pig Trap Skid</value>
+  </data>
+  <data name="aboutMore495" xml:space="preserve">
+    <value>KSS BBSH pipeline ECP system</value>
+  </data>
+  <data name="aboutMore496" xml:space="preserve">
+    <value>Каспий мұхиты</value>
+  </data>
+  <data name="aboutMore497" xml:space="preserve">
+    <value>Теңіз LCR HVAC қондырғысының инжиниринг және орнатуын қадағалау</value>
+  </data>
+  <data name="aboutMore498" xml:space="preserve">
+    <value>TENGIZCHEVROIL</value>
+  </data>
+  <data name="aboutMore499" xml:space="preserve">
+    <value>NCOC ЕРС 2 &amp; 3 Қашаған кен орны - E &amp; I орнату</value>
+  </data>
+  <data name="aboutMore5" xml:space="preserve">
+    <value>Құрылыс</value>
+  </data>
+  <data name="aboutMore501" xml:space="preserve">
+    <value>NCOC</value>
+  </data>
+  <data name="aboutMore502" xml:space="preserve">
+    <value>NCOC ЕРС 2 &amp; 3 Қашаған кен орны - Жергілікті жабдықтар бөлмесін жеткізу</value>
+  </data>
+  <data name="aboutMore503" xml:space="preserve">
+    <value>Қашағанға арналған P1 баспана баржасын жөндеу</value>
+  </data>
+  <data name="aboutMore504" xml:space="preserve">
+    <value>MAERSK</value>
+  </data>
+  <data name="aboutMore505" xml:space="preserve">
+    <value>TMB баржасы</value>
+  </data>
+  <data name="aboutMore6" xml:space="preserve">
+    <value>Біз мақтан тұтатын қуаттылығымыздың бірі - жұмысымызды ұйымдастыра білетініміз. Барлық іс-шаралар Денсаулық және Қауіпсіздік мәдениетіне сай негізделген: Қауіпсіздікті бақылау алдындағы Қауіпсіздік жөніндегі коучингке сенім артамыз және біз ең үздік қауіпсіздік техникасы үшін ынталандыру бағдарламаларын күнделікті қолданамыз.
+Бұл техникалық критерийлер арқылы таңдап алынған дағдылар кейін арнайы бағдарламалар арқылы дайындалған, сондай-ақ жоспарлауға бағытталған әдіс механикаландырылған жүйелерді жетілдіруге мүмкіндік береді.</value>
+  </data>
+  <data name="aboutMore7" xml:space="preserve">
+    <value>Ерекше мақтанышымыз</value>
+  </data>
+  <data name="aboutMore8" xml:space="preserve">
+    <value>Катодтық қорғаныс бөлімі - коррозияға қарсы бақылау, анықтау, алдын-алу және техникаоық қызмет көрсетудің барлық аспектілерін орындау үшін құрылған арнайы бизнес бөлімі.</value>
+  </data>
+  <data name="aboutMore81" xml:space="preserve">
+    <value>SITEK кең ауқымды  жобалардың арқасында Катодтық Қорғауды Жобалау, Сатып Алу, Құрылыс және Іске Қосу саласында мол тәжірибе жинақтады.</value>
+  </data>
+  <data name="aboutMore9" xml:space="preserve">
+    <value>Біз ұсына алатын қызметтер:</value>
+  </data>
+  <data name="AboutText1" xml:space="preserve">
+    <value>2011-ші жылдан бастап SITEK CASPIAN сапалы электр және инжинирингтік бақылау қызметтерін ұсынып келеді. SITEK Caspian Қазақстандық холдингтың бастамасымен құрылған компания</value>
+  </data>
+  <data name="AboutText10" xml:space="preserve">
+    <value>Клиентті толығымен түсіне білу және оған жеке икемді шешімдерді ұсыну SITEK Caspian компаниясының жобаларын сәтті аяқтауының және комерциялық табыс жағынан жемісті болуының ең басты кілті деп есептейміз  . </value>
+  </data>
+  <data name="AboutText101" xml:space="preserve">
+    <value>Тұтынушыға бағдарлану</value>
+  </data>
+  <data name="AboutText11" xml:space="preserve">
+    <value>Жоғары сапалы жабдықтар және технологиялармен бірге, біздің компаниямыз білікті жұмыс күшін қажетті шарт деп ойлайды. Біздің компанияда білім алмасатын және үздіксіз білім алғысы келетін ұрпақтар бірге жұмыс істегенін мақтан тұтамыз.  </value>
+  </data>
+  <data name="AboutText111" xml:space="preserve">
+    <value>Сараптама</value>
+  </data>
+  <data name="AboutText12" xml:space="preserve">
+    <value>Біздің компания жеке жауапкершілік принципі бойынша жұмыс істейді. Жұмыстың дәлдігі мен сапасын қамтамасыз ету үшін әрбір жобаға нақты анықталған жауапкершілік бөлімдері белгіленеді.</value>
+  </data>
+  <data name="AboutText121" xml:space="preserve">
+    <value>Жауапкершілік</value>
+  </data>
+  <data name="AboutText13" xml:space="preserve">
+    <value>Біздің қызметкерлеріміз ортақ мақсатқа жету үшін жақсы ұжымдық жұмыс пен максималды өнімділік танытады. Адамдар -  бизнестің жүрегі.</value>
+  </data>
+  <data name="AboutText131" xml:space="preserve">
+    <value>Адамдар</value>
+  </data>
+  <data name="AboutText2" xml:space="preserve">
+    <value>Біз мұнай және газ, мұнай айыратын зауыт, қуат, мұнай-химия, фармацевтік өнеркәсіп секілді әр түрлі секторларда электр және бақылау-өлшеу жұмыстарын ұсынамыз, сонымен қатар халықаралық нарықта біздің ұзақ тарихымыз бен тәжірибеміз жақсы қолдау тапты</value>
+  </data>
+  <data name="aboutText20" xml:space="preserve">
+    <value>SITEK командасының бірі бол</value>
+  </data>
+  <data name="aboutText21" xml:space="preserve">
+    <value>Біз білікті, өз күшіне сенетін, өмірдегі өз орнын таңдай білетін құзыретті қызметкерлерді іздейміз!</value>
+  </data>
+  <data name="aboutText22" xml:space="preserve">
+    <value>SITEK Caspian компаниясының басты құндылығы - оның қызметкерлері. Біздің командада жұмыс істеу - бұл кәсіби және жеке бас жағынан  өз бетінше жетілу мүмкіндіктеріне ие болу, өз алдына жаңа мақсаттарды қойып, оларды біртіндеп жүзеге асыруға ұмтылу.</value>
+  </data>
+  <data name="aboutText23" xml:space="preserve">
+    <value>Өзіңіздің түйіндемеңізді жібере аласыз. Біз тұрақты және болашақ жобаларымыз үшін үнемі инженерлерді іздеудеміз</value>
+  </data>
+  <data name="AboutText3" xml:space="preserve">
+    <value>SITEK Caspian компаниясы қазақстандық холдинг Lancaster Group және итальяндық SITIE Implantti Industriali бастамасымен құрылған. Біздің топ өндірicтің әр кезеңінде қызмет көрсете алатын халықаралық тәжірибеcі мен сараптамасы бар, яғни жобаның ең алғашқы кезеңінен бастап оның іске қосылуына дейін жұмысты орындай алады. </value>
+  </data>
+  <data name="AboutText4" xml:space="preserve">
+    <value>Бізде жоғары сапалы, келісілген кестелер мен бюджет шеңберінде орындалатын жобалардың ауқымды есебі бар. Біздің қызметтеріміз көптеген қауымдастықтар арқылы дамытылған, сонымен қатар, жергілікті және халықаралық мердігерлермен және мамандармен жұмыс істейтін қарым-қатынастар орнатылған. Біз жобаларды сәтті жүзеге асыру үшін біздің бірлескен ресурстарымызды үшінші тараптармен, альянстармен біріктіруде және жұмыс келісімдерінде айтарлықтай тәжірибеміз бар</value>
+  </data>
+  <data name="AboutText5" xml:space="preserve">
+    <value>Біздің миссиямыз жоғары стандартты электрлік, бақылау-өлшеуіш және бақылау инженерлік қызметтерінің жетекші және таңдаулы өнім берумен қатар, сол қызметтерді бюджет шеңберінде, уақытылы және қауіпсіз жеткізілуін қамтамасыз ету. Біз бұны:</value>
+  </data>
+  <data name="AboutText6" xml:space="preserve">
+    <value>клиенттерімізбен өзара түсіністік пен ынтымақтастықта негізделген стратегиялық серіктестік арқылы қол жеткізе аламыз.</value>
+  </data>
+  <data name="AboutText61" xml:space="preserve">
+    <value>Ұзақ мерзімді</value>
+  </data>
+  <data name="AboutText7" xml:space="preserve">
+    <value>Біздің қабілеттерімізді арттырып, қызметкерлерді оқытуға және дамытуға инвестициялаймыз</value>
+  </data>
+  <data name="AboutText71" xml:space="preserve">
+    <value>Үздіксіз жақсару</value>
+  </data>
+  <data name="AboutText8" xml:space="preserve">
+    <value>Және клиенттің қажеттіліктеріне зер салатын бірегей шешімдерді ұсыну үшін креатив.</value>
+  </data>
+  <data name="AboutText81" xml:space="preserve">
+    <value>Инновацияға қайрат беру</value>
+  </data>
+  <data name="AboutText9" xml:space="preserve">
+    <value>Біз клиенттерімізге өздерінің мақсаттары мен амбициялары жетімді болатындай тиімді және қауіпсіз жұмыс ортасын қамтамасыз етуге ұмтыламыз. Біздің негізгі құндылықтарымыз біздің күнделікті ісімізді анықтайды.</value>
+  </data>
+  <data name="aboutTime1" xml:space="preserve">
+    <value>Жұмыс кестесі</value>
+  </data>
+  <data name="aboutTime2" xml:space="preserve">
+    <value>Дүйсенбі - Жұма</value>
+  </data>
+  <data name="aboutTime3" xml:space="preserve">
+    <value>Сенбі, Жексенбі</value>
+  </data>
+  <data name="aboutTime4" xml:space="preserve">
+    <value>09:00 - 18.00</value>
+  </data>
+  <data name="aboutTime5" xml:space="preserve">
+    <value>Жабық</value>
+  </data>
+  <data name="aboutTitle1" xml:space="preserve">
+    <value>Мансап</value>
+  </data>
+  <data name="aboutTitle2" xml:space="preserve">
+    <value>Қоршаған Ортаны Қорғаудағы Қауіпсіздік</value>
+  </data>
+  <data name="aboutTitle3" xml:space="preserve">
+    <value>Механикалық аяқтау</value>
+  </data>
+  <data name="aboutTitle4" xml:space="preserve">
+    <value>Сатып алу</value>
+  </data>
+  <data name="aboutTitle5" xml:space="preserve">
+    <value>Өнімдер және қызметтер</value>
+  </data>
+  <data name="aboutTitle6" xml:space="preserve">
+    <value>Тренингтер</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>Мекенжай</value>
+  </data>
+  <data name="Aktau" xml:space="preserve">
+    <value>Ақтау</value>
+  </data>
+  <data name="AktauData" xml:space="preserve">
+    <value>29А Ықшам Ауданы, Нұр Плаза Бизнес Орталығы. Ақтау, 130000, Қазақстан</value>
+  </data>
+  <data name="Almaty" xml:space="preserve">
+    <value>Алматы</value>
+  </data>
+  <data name="AlmatyData" xml:space="preserve">
+    <value>Әл-Фараби даңғылы 77/7, Алматы, 050040, Қазақстан</value>
+  </data>
+  <data name="Atyrau" xml:space="preserve">
+    <value>Атырау</value>
+  </data>
+  <data name="AtyrauData" xml:space="preserve">
+    <value>Әйтеке би 55, Атырау, 060011. Қазақстан</value>
+  </data>
+  <data name="Brochure" xml:space="preserve">
+    <value>Толық брошюралар</value>
+  </data>
+  <data name="BrochureText" xml:space="preserve">
+    <value>Қызмет көрсету брошюраларында сіз біздің қызметтеріміздің толық сипаттамасын таба аласыз.</value>
+  </data>
+  <data name="CareerChoose" xml:space="preserve">
+    <value>Таңдау</value>
+  </data>
+  <data name="CareerUpload" xml:space="preserve">
+    <value>Жүктеу</value>
+  </data>
+  <data name="contact01" xml:space="preserve">
+    <value>Орналасқан жерлеріміз</value>
+  </data>
+  <data name="contact02" xml:space="preserve">
+    <value>Біз әрдайым жаңа серіктестік  пен әріптестік қарым-қатынастар іздейтін заманауи және жылдам дамып келе жатқан компаниямыз</value>
+  </data>
+  <data name="email1" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="email2" xml:space="preserve">
+    <value>Жарамды электронды поштаны енгізіңіз</value>
+  </data>
+  <data name="email3" xml:space="preserve">
+    <value>Телефон </value>
+  </data>
+  <data name="Fax" xml:space="preserve">
+    <value>Факс</value>
+  </data>
+  <data name="indHeader1" xml:space="preserve">
+    <value>Ең жоғарғы дәрежедегі қызметтер</value>
+  </data>
+  <data name="indHeader10" xml:space="preserve">
+    <value>Сізге қажетті шешімдер</value>
+  </data>
+  <data name="indHeader11" xml:space="preserve">
+    <value>Электр және бақылау-өлшеу қызметтері</value>
+  </data>
+  <data name="indHeader12" xml:space="preserve">
+    <value>Сіздің жергілікті серіктестен</value>
+  </data>
+  <data name="indHeader2" xml:space="preserve">
+    <value>Инжиниринг және құрылыс</value>
+  </data>
+  <data name="indHeader3" xml:space="preserve">
+    <value>Біз ең күрделі оффшорлық және құрлықтық инфрақұрылымды орнатамыз</value>
+  </data>
+  <data name="indHeader4" xml:space="preserve">
+    <value>Сенімді жабдықты алыңыз</value>
+  </data>
+  <data name="indHeader5" xml:space="preserve">
+    <value>Сатып алу</value>
+  </data>
+  <data name="indHeader6" xml:space="preserve">
+    <value>Бизнесіңізге қажет кез келген жабдықтарды ұсынамыз</value>
+  </data>
+  <data name="indHeader7" xml:space="preserve">
+    <value>Тәжірибе</value>
+  </data>
+  <data name="indHeader8" xml:space="preserve">
+    <value>Адамдар - біздің бизнестің жүрегі</value>
+  </data>
+  <data name="indHeader9" xml:space="preserve">
+    <value>Сапалы жобаларды сенімді түрде жеткізу арқылы клиенттің қанағаттануын қамтамасыз етеміз.</value>
+  </data>
+  <data name="indWelcome1" xml:space="preserve">
+    <value>SITEK CASPIAN веб-сайтына қош келдіңіз</value>
+  </data>
+  <data name="indWelcome10" xml:space="preserve">
+    <value>Біз E&amp;I калибрлеуді тестілеу, іске қосудың өзі мен оның алдындағы қызмет, бастау, қадағалау, техникалық қолдау және тағы басқа қызметтерді ұсынамыз.</value>
+  </data>
+  <data name="indWelcome101" xml:space="preserve">
+    <value>Біздің инфрақұрылымдық тестілеумен қауіпсіз болыңыз.</value>
+  </data>
+  <data name="indWelcome11" xml:space="preserve">
+    <value>Техникалық Қызмет Көрсету</value>
+  </data>
+  <data name="indWelcome12" xml:space="preserve">
+    <value> көрсетудің ішіне функционалды құралдарды калибрлеу, техникалық қызметтің бағдарламаланған тексерісі кіреді, қосалқы бөлшектерді бақылау және т.б.</value>
+  </data>
+  <data name="indWelcome121" xml:space="preserve">
+    <value>Ағымдағы инфрақұрылымның техникалық қолдауы</value>
+  </data>
+  <data name="indWelcome13" xml:space="preserve">
+    <value>Тренингтер</value>
+  </data>
+  <data name="indWelcome14" xml:space="preserve">
+    <value>Өнеркәсіптік қауіпсіздік, Еңбек және Денсаулық Қауіпсіздігі, Электр және Өрт Қауіпсіздігі бойынша тренингтер.</value>
+  </data>
+  <data name="indWelcome141" xml:space="preserve">
+    <value>Біз қашықтан оқытуды қамтамасыз етеміз</value>
+  </data>
+  <data name="indWelcome15" xml:space="preserve">
+    <value>Шабыттандырушы</value>
+  </data>
+  <data name="IndWelcome151" xml:space="preserve">
+    <value>SITEK CASPIAN - сіздің бизнестің және жетістігіңіздің серіктесі </value>
+  </data>
+  <data name="indWelcome16" xml:space="preserve">
+    <value>Заманауи</value>
+  </data>
+  <data name="indWelcome17" xml:space="preserve">
+    <value>Сенімді</value>
+  </data>
+  <data name="indWelcome18" xml:space="preserve">
+    <value>Күшті</value>
+  </data>
+  <data name="indWelcome19" xml:space="preserve">
+    <value>Ұлттық</value>
+  </data>
+  <data name="indWelcome2" xml:space="preserve">
+    <value>Біз мұнай және газ, мұнай айыратын зауыт, қуат, мұнай-химия, фармацевтік өнеркәсіп секілді әр түрлі секторларда электр және бақылау-өлшеу жұмыстарын ұсынамыз, сонымен қатар халықаралық нарықта біздің ұзақ тарихымыз бен тәжірибеміз жақсы қолдау тапты</value>
+  </data>
+  <data name="indWelcome20" xml:space="preserve">
+    <value>Қызметтеріміз</value>
+  </data>
+  <data name="indWelcome21" xml:space="preserve">
+    <value>Біз әр түрлі жұмыс істейміз</value>
+  </data>
+  <data name="indWelcome211" xml:space="preserve">
+    <value>Қоңырау шалу</value>
+  </data>
+  <data name="indWelcome22" xml:space="preserve">
+    <value>Оффшорлық уақыт</value>
+  </data>
+  <data name="indWelcome23" xml:space="preserve">
+    <value>Құрлықтағы уақыт</value>
+  </data>
+  <data name="indWelcome24" xml:space="preserve">
+    <value>Авариясыз уақыт</value>
+  </data>
+  <data name="indWelcome25" xml:space="preserve">
+    <value>Аяқталған жобалар</value>
+  </data>
+  <data name="indWelcome26" xml:space="preserve">
+    <value>Ағымдағы жобалар</value>
+  </data>
+  <data name="indWelcome27" xml:space="preserve">
+    <value>Біздің жобаларды қарап шығыңыз</value>
+  </data>
+  <data name="indWelcome28" xml:space="preserve">
+    <value>Біздің соңғы жобалар</value>
+  </data>
+  <data name="indWelcome29" xml:space="preserve">
+    <value>Сіздің Компанияңыздың ағымдағы және келешектегі жобалары бойынша электрлік және аспаптық қызметтері</value>
+  </data>
+  <data name="indWelcome3" xml:space="preserve">
+    <value>Инжиниринг</value>
+  </data>
+  <data name="indWelcome30" xml:space="preserve">
+    <value>Толық портфолионы көріп шығу</value>
+  </data>
+  <data name="indWelcome31" xml:space="preserve">
+    <value>SITEK Caspian жұмысты бюджет пен уақытқа шеңберінде, кәсіби деңгейімен орындайтын және клиенттің үміттерін ескере алатын, жоғары білікті мамандар мен техникалық мүмкіндіктерін көрсеткен жақсы инженерлер мен техникалық кадрлар тобына ие.</value>
+  </data>
+  <data name="indWelcome32" xml:space="preserve">
+    <value>KCOI - Біз SITEK CASPIAN компаниясын әр ұлтаралық компанияларға ұсынамыз. </value>
+  </data>
+  <data name="indWelcome33" xml:space="preserve">
+    <value>SITEK Caspian-да CP инженерлерінің жақсы командасына қоса барлық деңгейдегі техникалық мамандар жұмыс істейді және жұмысты уақытында, клиенттерім қанағаттанатындай етіп берілген жобалар бойынша тапсырмаларды шебер орындайды </value>
+  </data>
+  <data name="indWelcome34" xml:space="preserve">
+    <value>AGIP KCO - оларға болашақ бизнестерінде сәттілік тілейміз және олармен осындай қарым-қатынаста тағы да болғымыз келеді</value>
+  </data>
+  <data name="indWelcome35" xml:space="preserve">
+    <value>KCOI - Жоғарыда айтылған пәндер мен жұмыстарға сенімді және тұрақты жеткізушіні іздейтін кез-келген трансұлттық компаниялар үшін SITEK Caspian компаниясын ұсынамыз.</value>
+  </data>
+  <data name="indWelcome4" xml:space="preserve">
+    <value>Жобалық-сметалық құжаттаманың орындалуын негіздеу, қондырғыларға арналған BoQ, E &amp; I және HVAC жабдығына арналған деректер парағы, Өтінімдерді құрастыру әдістемесі, Жеткізуші құжаттамалары және т.б.</value>
+  </data>
+  <data name="indWelcome41" xml:space="preserve">
+    <value>Біз - ең жақсы қызмет көрсетушілерміз</value>
+  </data>
+  <data name="indWelcome5" xml:space="preserve">
+    <value>Сатып алу</value>
+  </data>
+  <data name="indWelcome6" xml:space="preserve">
+    <value>Біз клиенттеріміз үшін көптеген тапсырмаларды орындаймыз, соның ішінде Жеткізушілер тізімін дайындау, жеткізушілерді бағалау, Сатып алу Жоспары мен Кестесін дайындау, материалдың реквизиттерін дайындау, жүкті жеткізу кестесі және т.б.</value>
+  </data>
+  <data name="indWelcome7" xml:space="preserve">
+    <value>Құрылыс</value>
+  </data>
+  <data name="indWelcome8" xml:space="preserve">
+    <value>Құрылыс қызметтеріндегі біздің тәжірибеміз сізге Process Package және LER жинақтары жайлы, Process Instrument және электр жабдықтарын орнату, F &amp; G, Firefighting және Alarm жүйелерін орнату және тағы басқалар бойынша кеңестер береді.</value>
+  </data>
+  <data name="indWelcome9" xml:space="preserve">
+    <value>Механикалық Аяқтау мен Іске Қосу</value>
+  </data>
+  <data name="menu07" xml:space="preserve">
+    <value>Байланыс</value>
+  </data>
+  <data name="menu1" xml:space="preserve">
+    <value>Негізгі бет</value>
+  </data>
+  <data name="menu10" xml:space="preserve">
+    <value>Біздің жобалар</value>
+  </data>
+  <data name="menu2" xml:space="preserve">
+    <value>Біз туралы</value>
+  </data>
+  <data name="menu3" xml:space="preserve">
+    <value>Өнімдер мен қызметтер</value>
+  </data>
+  <data name="menu4" xml:space="preserve">
+    <value>Жобалар</value>
+  </data>
+  <data name="menu5" xml:space="preserve">
+    <value>Мансап</value>
+  </data>
+  <data name="menu6" xml:space="preserve">
+    <value>Контакт</value>
+  </data>
+  <data name="menu7" xml:space="preserve">
+    <value>Бізбен хабарласыңыз</value>
+  </data>
+  <data name="menu8" xml:space="preserve">
+    <value>Толық атыңыз</value>
+  </data>
+  <data name="menu9" xml:space="preserve">
+    <value>Сертификаттау</value>
+  </data>
+  <data name="moreText1" xml:space="preserve">
+    <value>Кәсіби </value>
+  </data>
+  <data name="moreText10" xml:space="preserve">
+    <value>Біз Клиентті Энергияландыру және оны іске қосудың маңызды кезеңінде қолдай аламыз. Қызметкерлеріміздің білімі мен тәжірибесі бұл әрекеттерді қауіпсіз және сенімді етеді.</value>
+  </data>
+  <data name="moreText11" xml:space="preserve">
+    <value>ТЕХНИКАЛЫҚ ҚЫЗМЕТ КӨРСЕТУ</value>
+  </data>
+  <data name="moreText12" xml:space="preserve">
+    <value>Кешенді жүйелерге қызмет көрсету жоғары дайындығы бар қызметкерлерді қажет етеді; Біз құрлықта және оффшорда алған ұзақ тәжірибемізбен күштіміз.</value>
+  </data>
+  <data name="moreText13" xml:space="preserve">
+    <value>ТРЕНИНГТЕР</value>
+  </data>
+  <data name="moreText14" xml:space="preserve">
+    <value>Біз өндірістік қауіпсіздік, еңбек және денсаулық қауіпсіздігі, электр және өрт қауіпсіздігі бойынша тренингтерге қашықтықтан оқыту мүмкіндігін ұсынамыз.</value>
+  </data>
+  <data name="moreText15" xml:space="preserve">
+    <value>SITEK ұсынған</value>
+  </data>
+  <data name="moreText16" xml:space="preserve">
+    <value>Сенімді жүйелер</value>
+  </data>
+  <data name="moreText17" xml:space="preserve">
+    <value>Әрқашан технологияның жоғары стандарттарына ұмтылу</value>
+  </data>
+  <data name="moreText18" xml:space="preserve">
+    <value>Жергілікті серіктесіңіздің бүкіл әлемдегі инновациялар</value>
+  </data>
+  <data name="moreText19" xml:space="preserve">
+    <value>Кез келген кедергілерге</value>
+  </data>
+  <data name="moreText2" xml:space="preserve">
+    <value>техникалық орналастыру</value>
+  </data>
+  <data name="moreText20" xml:space="preserve">
+    <value>Дайын болыңыз</value>
+  </data>
+  <data name="moreText21" xml:space="preserve">
+    <value>Тренинг сізге алдағы мүмкіндіктерді болжауға мүмкіндік береді</value>
+  </data>
+  <data name="moreText22" xml:space="preserve">
+    <value>Кез келген қиындықтарға дайын болыңыз</value>
+  </data>
+  <data name="moreText23" xml:space="preserve">
+    <value>SITEK Caspian </value>
+  </data>
+  <data name="moreText24" xml:space="preserve">
+    <value>оқу орталығы</value>
+  </data>
+  <data name="moreText25" xml:space="preserve">
+    <value>Біздің оқу орталығымыз</value>
+  </data>
+  <data name="moreText26" xml:space="preserve">
+    <value>Біздің оқу орталығы 2016 жылы біздің компания ұсынатын қызметтердің алуан түрлерін кеңейту мақсатында құрылған.</value>
+  </data>
+  <data name="moreText27" xml:space="preserve">
+    <value>Біздің орталығымызда Қазақстан Республикасының еңбек қауіпсіздігі және еңбекті қорғау саласындағы заңнамасының талаптарына сәйкес келетін кадрлар даярлаудың заманауи әдістері қолданылады.</value>
+  </data>
+  <data name="moreText28" xml:space="preserve">
+    <value>SITEK Caspian HSE менеджері - Ермек Сакинге хабарласыңыз.</value>
+  </data>
+  <data name="moreText29" xml:space="preserve">
+    <value>Біздің көзқарасымыз</value>
+  </data>
+  <data name="moreText3" xml:space="preserve">
+    <value>Біз индустриядағы жоғары сапалы қызметтерді ұсынамыз</value>
+  </data>
+  <data name="moreText30" xml:space="preserve">
+    <value>Көптеген жылдар бойы тәжірибе жинақтаған кезде, компания қызметкерлерінің еңбекке ақы төлеуі және олардың қызметкерлерін оқыту және аттестациялау үшін уақыт жоғалуы бойынша қиындықтарға тап болды. Қазақстан Республикасының өнеркәсіптік қауіпсіздік және еңбекті қорғау саласындағы заңнамасына сәйкес кәсіпорын қызметкерлері өндірістен бөлек, әр санаттағы 10-сағаттық жыл сайынғы оқытуды қажет етеді, себебі кадрлық білімдердің ағымдағы куәліктері объектілерден өту кезінде құжаттаманың ең маңызды құрамдастарының бірі болып табылады.</value>
+  </data>
+  <data name="moreText31" xml:space="preserve">
+    <value>Біздің лицензиялар мен сертификаттарды қарап шығыңыз</value>
+  </data>
+  <data name="moreText32" xml:space="preserve">
+    <value>Оқу орталығының іс-шаралары</value>
+  </data>
+  <data name="moreText33" xml:space="preserve">
+    <value>Қазақстан Республикасының Төтенше жағдайлар министрлігімен, Unicorn ССС және Mr. Doors-пен бірге</value>
+  </data>
+  <data name="moreText34" xml:space="preserve">
+    <value>Отандық ғылым мен өнеркәсіптік қауіпсіздікке арналған техникалық орталықпен  әзірленген қашықтан оқыту технологиялары.</value>
+  </data>
+  <data name="moreText35" xml:space="preserve">
+    <value>Курстарға қолдану жеке тұлғалар ұсынатын болады</value>
+  </data>
+  <data name="moreText36" xml:space="preserve">
+    <value>Оқыту және сертификаттау кез келген жерде және уақытта онлайн жүргізіледі</value>
+  </data>
+  <data name="moreText37" xml:space="preserve">
+    <value>T &amp; E, тәуліктік және үстеме шығындардың болмауына байланысты шығындар тиімділігі</value>
+  </data>
+  <data name="moreText38" xml:space="preserve">
+    <value>Клиенттер үшін жүйесі есептер</value>
+  </data>
+  <data name="moreText39" xml:space="preserve">
+    <value>Өнеркәсіптік қауіпсіздік</value>
+  </data>
+  <data name="moreText4" xml:space="preserve">
+    <value>Жергілікті серіктес.</value>
+  </data>
+  <data name="moreText40" xml:space="preserve">
+    <value>біздің негізгі бағыты болып табылады</value>
+  </data>
+  <data name="moreText41" xml:space="preserve">
+    <value>Қауіпті өндірістік объектілерде өнеркәсіптік қауіпсіздік.</value>
+  </data>
+  <data name="moreText42" xml:space="preserve">
+    <value>Жүзеге асыру және жүк көтеру жабдықтарды қауіпсіз пайдалану үшін қойылатын талаптар</value>
+  </data>
+  <data name="moreText43" xml:space="preserve">
+    <value>Құрылыс және жоғары қысыммен контейнерлер қауіпсіз пайдалану үшін қойылатын талаптар</value>
+  </data>
+  <data name="moreText44" xml:space="preserve">
+    <value>Бу және ыстық су қазандықтарынан қауіпсіздігіне қойылатын талаптар</value>
+  </data>
+  <data name="moreText45" xml:space="preserve">
+    <value>Табиғи газ тарату және тұтыну жүйелерінің өнеркәсіптік қауіпсіздік талаптары</value>
+  </data>
+  <data name="moreText46" xml:space="preserve">
+    <value>Электр қауіпсіздік</value>
+  </data>
+  <data name="moreText47" xml:space="preserve">
+    <value>Біз сарапшыларды айналысатын</value>
+  </data>
+  <data name="moreText48" xml:space="preserve">
+    <value>Тұтыну электр қондырғыларын және тұтынушылық электр қондырғыларын техникалық пайдалану ережесін пайдалануға арналған қауіпсіздік ережелері.  1-3 групасы.</value>
+  </data>
+  <data name="moreText49" xml:space="preserve">
+    <value>Электр тұтынушылардың қондырғыларын және тұтынушылық электр қондырғыларын техникалық пайдалану ережесін пайдалануға арналған қауіпсіздік ережелері. 4 топ.</value>
+  </data>
+  <data name="moreText5" xml:space="preserve">
+    <value>Өндірістеріңіз үшін ең жоғарғы қызметтерді ұсынамыз</value>
+  </data>
+  <data name="moreText50" xml:space="preserve">
+    <value>Өрт қауіпсіздігі</value>
+  </data>
+  <data name="moreText51" xml:space="preserve">
+    <value>Өрт қауіпсіздігі ұйымдардың қызметкерлері үшін шаралар, менеджерлер мен ұйымдарда өрт қауіпсіздігі үшін жауапты адамдарды оқыту.</value>
+  </data>
+  <data name="moreText52" xml:space="preserve">
+    <value>Өрт-техникалық минимумы</value>
+  </data>
+  <data name="moreText53" xml:space="preserve">
+    <value>Еңбек қауіпсіздігі және денсаулық</value>
+  </data>
+  <data name="moreText54" xml:space="preserve">
+    <value>Кәсіпорындарды толыққанды тексеру комиссиясын дайындау.</value>
+  </data>
+  <data name="moreText55" xml:space="preserve">
+    <value>Еңбек кодексі және еңбекті қорғау курсы.</value>
+  </data>
+  <data name="moreText56" xml:space="preserve">
+    <value>Еңбекті қорғау және қауіпсіздік техникасы.</value>
+  </data>
+  <data name="moreText57" xml:space="preserve">
+    <value>Online порталы</value>
+  </data>
+  <data name="moreText58" xml:space="preserve">
+    <value>Біздің заманауи тәсілдеме туралы қосымша ақпаратты оқып, өнімді біздің онлайн-оқыту порталында көріңіз. Біз ұлттық және шетелдік компанияларды сапалы халықаралық стандарттарға сәйкес жоғары деңгейде оқыту және кеңес беру қызметтерін ұсынуға тырысамыз.</value>
+  </data>
+  <data name="moreText59" xml:space="preserve">
+    <value>Өз адамдарыңызды</value>
+  </data>
+  <data name="moreText6" xml:space="preserve">
+    <value>Біз мұнай және газ, мұнай айыратын зауыт, қуат, мұнай-химия, фармацевтік өнеркәсіп секілді әр түрлі салада жұмыс істейміз. Электр және бақылау-өлшеу жұмыстарда ауқымды спектр қызметтерді ұсынамыз.</value>
+  </data>
+  <data name="moreText60" xml:space="preserve">
+    <value>дайындық арқылы қорғаңыз</value>
+  </data>
+  <data name="moreText61" xml:space="preserve">
+    <value>Біз халықаралық денгейдегі тәжірибені ұсынамыз</value>
+  </data>
+  <data name="moreText62" xml:space="preserve">
+    <value>Жергілікті серіктес ғаламдық сараптама</value>
+  </data>
+  <data name="moreText7" xml:space="preserve">
+    <value>ҚҰРЫЛЫС</value>
+  </data>
+  <data name="moreText8" xml:space="preserve">
+    <value>Барлық іс-шаралар Денсаулық және қауіпсіздік мәдениетін негізделген: біз қауіпсіздік жөніндегі бақылау бұрын қауіпсіздік туралы коучинг туралы ойлаймын</value>
+  </data>
+  <data name="moreText9" xml:space="preserve">
+    <value>МЕХАНИКАЛЫҚ АЯҚТАУ МЕН ІСКЕ ҚОСУ</value>
+  </data>
+  <data name="name1" xml:space="preserve">
+    <value>Атыңызды енгізіңіз</value>
+  </data>
+  <data name="number1" xml:space="preserve">
+    <value>Телефон нөмірі</value>
+  </data>
+  <data name="number2" xml:space="preserve">
+    <value>Өзіңіз туралы айтып беріңізші</value>
+  </data>
+  <data name="number3" xml:space="preserve">
+    <value>Егер өтініш беруге</value>
+  </data>
+  <data name="number4" xml:space="preserve">
+    <value>Мекен-жайы:</value>
+  </data>
+  <data name="number5" xml:space="preserve">
+    <value>Әйтеке би көшесі, 55, Атырау, 060011, Қазақстан</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value> Телефон</value>
+  </data>
+  <data name="ProjectsHeader" xml:space="preserve">
+    <value>Жобаларымыз</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Іздеу...</value>
+  </data>
+  <data name="send" xml:space="preserve">
+    <value>Хат жіберу</value>
+  </data>
+  <data name="ServicesProcure" xml:space="preserve">
+    <value>Тұтынушылар шағын жабдықтарды, сусымалы материалдарды жоба үрдісін тездету үшін бізге тапсыруды қалайды. </value>
+  </data>
+  <data name="textMore01" xml:space="preserve">
+    <value>ИНЖИНИРИНГ</value>
+  </data>
+  <data name="textMore1" xml:space="preserve">
+    <value>Инжиниринг</value>
+  </data>
+  <data name="textMore10" xml:space="preserve">
+    <value>Егжей-тегжейлі жобаны орындау</value>
+  </data>
+  <data name="textMore100" xml:space="preserve">
+    <value>Ол барлық пәндер (Азаматтық, құрылымы, құбырлар, E &amp; I, Кескіндеме) және барлық кезеңдерінде (Engineering, сатып алу, құрылыс) тар ғой, сыни процесс. Жобалар кестесі әрдайым тығыз болып табылады, және құрылысымен жабынның барысы туралы үлкен әсер тудырады. </value>
+  </data>
+  <data name="textMore101" xml:space="preserve">
+    <value>Біз Орындайтын Әрекеттер</value>
+  </data>
+  <data name="textMore102" xml:space="preserve">
+    <value>SITEK Caspian сәтті назар аудара, тексерулер толық таза пакет пайдалануға жеткізу бірнеше жобаларды аяқтады</value>
+  </data>
+  <data name="textMore103" xml:space="preserve">
+    <value>Жобаның игілігі үшін кестелерін ішінде жеткізу құрылысына жоспарлау және үйлестіру</value>
+  </data>
+  <data name="textMore104" xml:space="preserve">
+    <value>E &amp; I калибрлеу тестілеу</value>
+  </data>
+  <data name="textMore105" xml:space="preserve">
+    <value>Қызметі іске қосу және пайдалануға енгізу</value>
+  </data>
+  <data name="textMore106" xml:space="preserve">
+    <value>Іске қосу және көмек</value>
+  </data>
+  <data name="textMore107" xml:space="preserve">
+    <value>Қауіпсіздікке зиян келтірмей</value>
+  </data>
+  <data name="textMore108" xml:space="preserve">
+    <value>Жобаларға қол жеткізу</value>
+  </data>
+  <data name="textMore109" xml:space="preserve">
+    <value>SITEK бірге жұмыс істейтін адамдар үшін қамқорлық жасайды</value>
+  </data>
+  <data name="textMore11" xml:space="preserve">
+    <value>Болжамды құрылым жұмыстары/материалдар тізімі</value>
+  </data>
+  <data name="textMore110" xml:space="preserve">
+    <value>Жергілікті серіктес ұсынған жоғары сапалы іске қосу</value>
+  </data>
+  <data name="textMore111" xml:space="preserve">
+    <value>Жеткізушілермен </value>
+  </data>
+  <data name="textMore112" xml:space="preserve">
+    <value>күшті қарым-қатынас құру</value>
+  </data>
+  <data name="textMore113" xml:space="preserve">
+    <value>Жаңа мүмкіндіктер ашық-дейін</value>
+  </data>
+  <data name="textMore114" xml:space="preserve">
+    <value>Жергілікті серіктеспен</value>
+  </data>
+  <data name="textMore115" xml:space="preserve">
+    <value>САТЫП АЛУ</value>
+  </data>
+  <data name="textMore116" xml:space="preserve">
+    <value>Жобаның кестесінің міндеттерді шешу үшін, біз сатып алу қызметінің клиенттерге қолдау. Клиенттер жеделдету-дейін жеткізу-тізбегін, Тапсыру үшін біз жобаланған шағын жабдықтар, сусымалы материалдың және тауарларды сатып алуда таңдайды. Біз Клиенттердің саясатының шеңберінде жылдам сатып алу мүмкіндік беретін мөлдір және сенімді рәсімдерді ұсына алады. Біз нарық білімі және арық логистикалық басқару арқылы күшті қолдау береді.</value>
+  </data>
+  <data name="textMore117" xml:space="preserve">
+    <value>Жеткізуші тізімі препараттар</value>
+  </data>
+  <data name="textMore118" xml:space="preserve">
+    <value>Жеткізуші бағалау</value>
+  </data>
+  <data name="textMore119" xml:space="preserve">
+    <value>Сатып алу жоспары және кестесі жүзеге асыру</value>
+  </data>
+  <data name="textMore12" xml:space="preserve">
+    <value>E&amp;I және HVAC техникалық жабдықтардың сипаттамасы</value>
+  </data>
+  <data name="textMore120" xml:space="preserve">
+    <value>Подготовка заявки на материал и последующее наблюдение</value>
+  </data>
+  <data name="textMore121" xml:space="preserve">
+    <value>Техникалық ұсыныс бағалау</value>
+  </data>
+  <data name="textMore122" xml:space="preserve">
+    <value>Сатып алу тапсырыстар дейін орындаңыз</value>
+  </data>
+  <data name="textMore123" xml:space="preserve">
+    <value>Жеткізуші инспекция барысы</value>
+  </data>
+  <data name="textMore124" xml:space="preserve">
+    <value>Жеткізу кестесі дейін орындаңыз</value>
+  </data>
+  <data name="textMore125" xml:space="preserve">
+    <value>Түпкілікті қабылдау Test &amp; қорытынды аттестаттау кейінгі</value>
+  </data>
+  <data name="textMore126" xml:space="preserve">
+    <value>Біз </value>
+  </data>
+  <data name="textMore127" xml:space="preserve">
+    <value>нәтиже</value>
+  </data>
+  <data name="textMore128" xml:space="preserve">
+    <value>үшін есеп береміз</value>
+  </data>
+  <data name="textMore129" xml:space="preserve">
+    <value>Сапалы өнімдер мен қаржы теңестіру</value>
+  </data>
+  <data name="textMore13" xml:space="preserve">
+    <value>Жеткізушінің құжаттарың тексеру және қарап шығу</value>
+  </data>
+  <data name="textMore130" xml:space="preserve">
+    <value>Ең сапалы өнім сіз үшін</value>
+  </data>
+  <data name="textMore131" xml:space="preserve">
+    <value>ӨНІМДЕР КАТАЛОГЫ</value>
+  </data>
+  <data name="textMore132" xml:space="preserve">
+    <value>Жобаның кестесінің міндеттерді шешу үшін, біз сатып алу қызметінің клиенттерге қолдау. Клиенттер жеделдету-дейін жеткізу-тізбегін, Тапсыру үшін біз жобаланған шағын жабдықтар, сусымалы материалдың және тауарларды сатып алуда таңдайды. Біз Клиенттердің саясатының шеңберінде жылдам сатып алу мүмкіндік беретін мөлдір және сенімді рәсімдерді ұсына алады. Біз нарық білімі және арық логистикалық басқару арқылы күшті қолдау береді.</value>
+  </data>
+  <data name="textMore133" xml:space="preserve">
+    <value>Кабельдер Баспалар</value>
+  </data>
+  <data name="textMore134" xml:space="preserve">
+    <value>PTR түрі</value>
+  </data>
+  <data name="textMore135" xml:space="preserve">
+    <value>Түзеп қабырғасының тесілген Астыңғы Кабельдік науалар</value>
+  </data>
+  <data name="textMore136" xml:space="preserve">
+    <value>Сырластық қабырғасының тесілген Астыңғы Кабельдік науалар</value>
+  </data>
+  <data name="textMore137" xml:space="preserve">
+    <value>Қолдау және</value>
+  </data>
+  <data name="textMore138" xml:space="preserve">
+    <value>Бекіткіш</value>
+  </data>
+  <data name="textMore139" xml:space="preserve">
+    <value>Жарықтандыру аспаптары</value>
+  </data>
+  <data name="textMore14" xml:space="preserve">
+    <value>DCS/PLC/ESD системалардың енгізуді тексеру</value>
+  </data>
+  <data name="textMore140" xml:space="preserve">
+    <value>Жалпы каталог</value>
+  </data>
+  <data name="textMore141" xml:space="preserve">
+    <value>Каталог шолу</value>
+  </data>
+  <data name="textMore15" xml:space="preserve">
+    <value>F&amp;G системалардың енгізуді тексеру</value>
+  </data>
+  <data name="textMore16" xml:space="preserve">
+    <value>Өтінімдердің құрылу әдісі</value>
+  </data>
+  <data name="textMore17" xml:space="preserve">
+    <value>Құрылысты тексеру</value>
+  </data>
+  <data name="textMore18" xml:space="preserve">
+    <value>MC, Іске қосу мен жөндеу жұмыстары</value>
+  </data>
+  <data name="textMore19" xml:space="preserve">
+    <value>Қызыл белгі және орындау сияқты салынған</value>
+  </data>
+  <data name="textMore2" xml:space="preserve">
+    <value>SITEK-пен жеткізілетін</value>
+  </data>
+  <data name="textMore20" xml:space="preserve">
+    <value>Іске асыру</value>
+  </data>
+  <data name="textMore21" xml:space="preserve">
+    <value>Зерттеу және әзірлеу</value>
+  </data>
+  <data name="textMore22" xml:space="preserve">
+    <value>Сіздің мүмкіндіктерді жылжыту</value>
+  </data>
+  <data name="textMore23" xml:space="preserve">
+    <value>Халықаралық тәжірибемен жергілікті серіктес</value>
+  </data>
+  <data name="textMore3" xml:space="preserve">
+    <value>инновациялар</value>
+  </data>
+  <data name="textMore30" xml:space="preserve">
+    <value>Біздің сараптау</value>
+  </data>
+  <data name="textMore31" xml:space="preserve">
+    <value>Әлеуметтік тұрақтылық</value>
+  </data>
+  <data name="textMore32" xml:space="preserve">
+    <value>SITEK Caspian тек қана дағдылар, қабілеттілік және адамгершілік ресурстарына бейілділікке тәуелді емес, соңымен қатар, барлық қызметкерлерге бөлінетін және тән болатын, сенімділік деңгейі, өзін ұстай білушіліе, парасатты мағына және жеке тұтастық.</value>
+  </data>
+  <data name="textMore33" xml:space="preserve">
+    <value>SITEK Caspian компанияға тікелей немесе жанама қатысы бар, іс шараларда мүддесі бар клиенттер, қызметкерлер, жеткізушілер мен бәсекелестермен кәсіпкерлік табысқа талпынысты бірлесіп, сенімді қарым-қатынасты дамыту деген ой бар.</value>
+  </data>
+  <data name="textMore34" xml:space="preserve">
+    <value>Нәтиже ретінде, SITEK Caspian:</value>
+  </data>
+  <data name="textMore35" xml:space="preserve">
+    <value>Өз клиенттерді сапалы өнімдер мен қызметтермен қамтамысыз етіп, талаптарына сәйкес қауіпсуз, әділ бағамен, адал және құрметпен қарауға ұмтылады.</value>
+  </data>
+  <data name="textMore36" xml:space="preserve">
+    <value>SITEK Caspian "Әдеп Кодексінде" жазылған ережелер мен принциптерді сақтауға арнайы назар аударып, өз істі жүзеге асырып, пайданың өсуі мақсатына жетуде.</value>
+  </data>
+  <data name="textMore37" xml:space="preserve">
+    <value>Өз қызметкерлерге бәсекелес табысқа жетуге көмектесетін, кәсіпқой және жеке талпыныстарды қанағаттандыратын, арнайы жұмыс ортасын ұсынады.</value>
+  </data>
+  <data name="textMore38" xml:space="preserve">
+    <value>Жауакершілікті субъект сияқты, соральды әдеппен әрекет жасайды.</value>
+  </data>
+  <data name="textMore39" xml:space="preserve">
+    <value>Өз жеткізушілермен бейтарап және адалдықпен қарайды</value>
+  </data>
+  <data name="textMore4" xml:space="preserve">
+    <value>Білікті инженерлерден кеңейтілген шешімдер</value>
+  </data>
+  <data name="textMore40" xml:space="preserve">
+    <value>Заң және SITEK Caspian "Әдеп Кодексінің" шеңберінде бәсекелеседі</value>
+  </data>
+  <data name="textMore41" xml:space="preserve">
+    <value>Сертификаттар мен лицензиялар</value>
+  </data>
+  <data name="textMore42" xml:space="preserve">
+    <value>Бәрін көрсету</value>
+  </data>
+  <data name="textMore43" xml:space="preserve">
+    <value>Құрылыстар</value>
+  </data>
+  <data name="textMore44" xml:space="preserve">
+    <value>Аккредитациялар</value>
+  </data>
+  <data name="textMore45" xml:space="preserve">
+    <value>Сапа</value>
+  </data>
+  <data name="textMore46" xml:space="preserve">
+    <value>Оқыту</value>
+  </data>
+  <data name="textMore5" xml:space="preserve">
+    <value>Біз технологияларды алға қозғаушы тоқтату ешқашан</value>
+  </data>
+  <data name="textMore50" xml:space="preserve">
+    <value>Cізге қажет </value>
+  </data>
+  <data name="textMore51" xml:space="preserve">
+    <value>шешімдер</value>
+  </data>
+  <data name="textMore52" xml:space="preserve">
+    <value>Электр және аспап Іс-шаралар</value>
+  </data>
+  <data name="textMore53" xml:space="preserve">
+    <value>Сіздің жергілікті серіктестен</value>
+  </data>
+  <data name="textMore54" xml:space="preserve">
+    <value>Ең жоғарғы</value>
+  </data>
+  <data name="textMore55" xml:space="preserve">
+    <value>Қызметтер</value>
+  </data>
+  <data name="textMore56" xml:space="preserve">
+    <value>Сенімді</value>
+  </data>
+  <data name="textMore57" xml:space="preserve">
+    <value>жабдықтар</value>
+  </data>
+  <data name="textMore58" xml:space="preserve">
+    <value>Сапалы жобаларды қауіпсіз жеткізу арқылы</value>
+  </data>
+  <data name="textMore59" xml:space="preserve">
+    <value>клиенттерді қанағатқа қол жеткізу.</value>
+  </data>
+  <data name="textMore6" xml:space="preserve">
+    <value>Біз толығымен инженерлік қызметтерді ұсынамыз, бастапқы кезеңнен бастап (FEED), аяқталуына және жүзеге асыруына дейін бақылаймыз.</value>
+  </data>
+  <data name="textMore60" xml:space="preserve">
+    <value>Біздің команда қосылыңыз</value>
+  </data>
+  <data name="textMore61" xml:space="preserve">
+    <value>Сапа және Қауіпсіздік</value>
+  </data>
+  <data name="textMore62" xml:space="preserve">
+    <value>Негізгі жобалау және олардың орындау,</value>
+  </data>
+  <data name="textMore63" xml:space="preserve">
+    <value>орнату үшін BOQ, техникалық паспорттар жабдықтар E&amp;I және HVAC үшін, жоба-сметалық құжаттама провайдердің ұйымдастыру және одан да көп іске асыру үшін үздік қызмет жеткізушілері болып табыламыз.</value>
+  </data>
+  <data name="textMore64" xml:space="preserve">
+    <value>Біздің клиенттер үшін</value>
+  </data>
+  <data name="textMore65" xml:space="preserve">
+    <value>әр түрлі міндеттерді орындаймыз, соның ішінде:</value>
+  </data>
+  <data name="textMore66" xml:space="preserve">
+    <value>жеткізушілер тізімін дайындау, жеткізушілерді бағалау, сатып алу жоспары мен кестесінің іске асыруы, материалға өтінім дайындау, жеткізуді қадағалау және тағы басқалар..</value>
+  </data>
+  <data name="textMore67" xml:space="preserve">
+    <value>Біздің құрылыс қызметтер</value>
+  </data>
+  <data name="textMore68" xml:space="preserve">
+    <value>сараптамасы сізге Пакет процессінде және LER құрастырмаларда, процесстің құралында және электр жабдықтарын орнату, F&amp;G, өрт сөндіру жүйелерін, дабылдарды орнатудың және т.б. нәтижесін жібереді</value>
+  </data>
+  <data name="textMore69" xml:space="preserve">
+    <value>Біз біздің E &amp; I калибрлеу тестілеу қызметтерін, Pre-іске қосу және пайдалануға қызметін, іске, дейін орындаңыз, көмек және әлдеқайда ұсынамыз ...</value>
+  </data>
+  <data name="textMore7" xml:space="preserve">
+    <value>Біз ұсына алатын қызметтер:</value>
+  </data>
+  <data name="textMore70" xml:space="preserve">
+    <value>Қызмет көрсету</value>
+  </data>
+  <data name="textMore71" xml:space="preserve">
+    <value>Біз ауыстырып-қосу</value>
+  </data>
+  <data name="textMore72" xml:space="preserve">
+    <value> жүйелеріне қызмет көрсетеміз</value>
+  </data>
+  <data name="textMore73" xml:space="preserve">
+    <value>Өз әлеуетіңізді жоғары деңгейде ұстаңыз</value>
+  </data>
+  <data name="textMore74" xml:space="preserve">
+    <value>Жергілікті серіктес 24/7 қолдау</value>
+  </data>
+  <data name="textMore75" xml:space="preserve">
+    <value>ТЕХНИКАЛЫҚ ҚЫЗМЕТ КӨРСЕТУ</value>
+  </data>
+  <data name="textMore76" xml:space="preserve">
+    <value>Күрделі жүйелерге қызмет көрсету үшін жоғары білікті қызметкерлер қажет; теңіздегі және жер бетіндегі жиналған тәжірибеміз бар. Біз ұсына алатын негізгі қызметтер</value>
+  </data>
+  <data name="textMore77" xml:space="preserve">
+    <value>Біз Орындайтын Әрекеттер</value>
+  </data>
+  <data name="textMore78" xml:space="preserve">
+    <value>Функционалдық құралды калибрлеу</value>
+  </data>
+  <data name="textMore79" xml:space="preserve">
+    <value>Бағдарламаланған техникалық қызмет көрсету тексеру</value>
+  </data>
+  <data name="textMore8" xml:space="preserve">
+    <value>Жобаның техникалық-экономикалық негіздемесі</value>
+  </data>
+  <data name="textMore80" xml:space="preserve">
+    <value>Қосымша бөлшектерді </value>
+  </data>
+  <data name="textMore81" xml:space="preserve">
+    <value>басқару</value>
+  </data>
+  <data name="textMore82" xml:space="preserve">
+    <value>Бағдарламаланған катодтық қорғау қызмет көрсету</value>
+  </data>
+  <data name="textMore83" xml:space="preserve">
+    <value>Сіздің инфрақұрылым жағдайын</value>
+  </data>
+  <data name="textMore84" xml:space="preserve">
+    <value>бақылап отырамыз</value>
+  </data>
+  <data name="textMore85" xml:space="preserve">
+    <value>Ең күшті қызметтерді ұсыну</value>
+  </data>
+  <data name="textMore9" xml:space="preserve">
+    <value>Негізгі жобаға шолу</value>
+  </data>
+  <data name="textMore90" xml:space="preserve">
+    <value>Жоғары білікті </value>
+  </data>
+  <data name="textMore91" xml:space="preserve">
+    <value>жоба инженерлері</value>
+  </data>
+  <data name="textMore92" xml:space="preserve">
+    <value>Біз қауіпсіздікті бағалаймыз</value>
+  </data>
+  <data name="textMore93" xml:space="preserve">
+    <value>Жергілікті серіктес ғаламдық сараптама</value>
+  </data>
+  <data name="textMore94" xml:space="preserve">
+    <value>Механикалық Аяқтау мен Іске Қосу</value>
+  </data>
+  <data name="textMore95" xml:space="preserve">
+    <value>Ол функционалдық сынау үшін пайдалануға Толтырылған жүйесін жеткізуге процесс болып табылады. Ол барлық тексеру жинау және құрылыс жобалау және бір-ақ аяқталды деп пайдалануға дәлелдеуге оларды буып міндеті бар.</value>
+  </data>
+  <data name="textMore96" xml:space="preserve">
+    <value>Пайдалануға беру</value>
+  </data>
+  <data name="textMore97" xml:space="preserve">
+    <value>Ол Қорытынды Пайдаланушы күту сәйкес екенін функционалдық куәландыратын, жүйені тестілеу процесі болып табылады. Пайдалануға енгізу, содан кейін қорытынды пайдаланушыға жүйесін жеткізеді.</value>
+  </data>
+  <data name="textMore98" xml:space="preserve">
+    <value>Аталған қызметтерді сізге ұсынамыз</value>
+  </data>
+  <data name="textMore99" xml:space="preserve">
+    <value>Машина аяқтау &amp; пайдалануға енгізу компанияның өмірлік циклі кезінде емес үздіксіз, жобаның соңында пайда; бойынша саласындағы тәжірибесі компаниясы (мердігер мен мұнай компаниясы) үшін көрсеткендей жаю әрқашан ыңғайлы емес» «камералдық бірақ олар (дерекқор, үйлестірушілер, басшылар, мамандар) аутсорсинг.</value>
+  </data>
+  <data name="ContactDescr" xml:space="preserve">
+    <value>Қазақстанда үш негізгі кеңселері бар - Атырау, Алматы және Ақтауда. Біздің команданың халықаралық тәжірибесі бар және жобаны алғашқы сатылардан бастап, оны аяқтап, пайдаланып, іске қосуына дейін, өз қызметті ұсынуға мүмкіндік береді. Сіз өз түйіндемеңізді немесе кез келген басқа сұрауларды жіберуге болады. Біз серіктестік және ынтымақтастық үшін әрқашан ашықпыз.</value>
+  </data>
+  <data name="EnginDescr" xml:space="preserve">
+    <value>Біз Инженерлік қызметтердің толық спектрін, ерте сатыдан (FEED) түпкілікті  құрылысы аяқталғанға дейін қамтамасыз етеміз. Біздің көзқарасымыз Клиенттің қажеттіліктерін қанағаттандыру болып табылады және біз инженерлік команда мен далалық топтың дизайн даму тізбегін қысқартуға көмектесеміз. Инженерлік қызметтер:</value>
+  </data>
+  <data name="textNoMore1" xml:space="preserve">
+    <value>Электротехникалық және бақылау жұмыстары</value>
+  </data>
+  <data name="textNoMore2" xml:space="preserve">
+    <value>Электротехникалық катодты қорғау</value>
+  </data>
+  <data name="textNoMore3" xml:space="preserve">
+    <value>Материалдарды сатып алу</value>
+  </data>
+  <data name="textNoMore4" xml:space="preserve">
+    <value>Механикалық аяқтау</value>
+  </data>
+  <data name="textNoMore5" xml:space="preserve">
+    <value>Пайдалануға беру</value>
+  </data>
+  <data name="textNoMore6" xml:space="preserve">
+    <value>Жабдықтарды бөлшектеу</value>
+  </data>
+  <data name="textNoMore7" xml:space="preserve">
+    <value>HVAC Инжиниринг</value>
+  </data>
+  <data name="CareerVacancies" xml:space="preserve">
+    <value>Бос Қызмет Орындары</value>
+  </data>
+  <data name="ContactDesc" xml:space="preserve">
+    <value>Біз әрдайым жаңа әріптестік пен әріптестік қарым-қатынастар іздейтін заманауи және жылдам дамып келе жатқан компаниямыз.</value>
+  </data>
+  <data name="FooterMap" xml:space="preserve">
+    <value>Сайт картасы</value>
+  </data>
+  <data name="FooterRights" xml:space="preserve">
+    <value>Барлық құқықтар сақталынған.</value>
+  </data>
+  <data name="FooterSocial" xml:space="preserve">
+    <value>Тобтарымыз</value>
+  </data>
+  <data name="FooterSubscribe" xml:space="preserve">
+    <value>Жаңалықтарға жазылу</value>
+  </data>
+  <data name="LangEn" xml:space="preserve">
+    <value>Ағылшын тілі</value>
+  </data>
+  <data name="LangKz" xml:space="preserve">
+    <value>Қазақ тілі</value>
+  </data>
+  <data name="LangRu" xml:space="preserve">
+    <value>Орыс тілі</value>
+  </data>
+  <data name="Subscribe" xml:space="preserve">
+    <value>Жазылу</value>
+  </data>
+  <data name="textMore86" xml:space="preserve">
+    <value>Қарқындылыққа қарамастан жұмыс аяқталмайды.</value>
+  </data>
+  <data name="textNoMore10" xml:space="preserve">
+    <value>Электротехникалық және бақылау-өлшем жұмыстар (жарықтандыру, қуат, жылу қадағалау, F&amp;G, байланыс және т.б.) орнату. Құжаттардың егжей-тегжейлі шолу, монтаж, механикалық аяқтау, іске қосу мен жөнжеу жұмыстары, пайдаланудан бастап.</value>
+  </data>
+  <data name="textNoMore11" xml:space="preserve">
+    <value>Электротехникалық және бақылау-өлшем жұмыстар (жарықтандыру, қуат, жылу қадағалау, F&amp;G, байланыс және т.б.) орнату. Құжаттардың егжей-тегжейлі шолу, монтаж, механикалық аяқтау, іске қосу мен жөнжеу жұмыстары, пайдаланудан бастап.</value>
+  </data>
+  <data name="textNoMore13" xml:space="preserve">
+    <value>Электротехникалық және бақылау-өлшем жұмыстар (жарықтандыру, қуат, жылу қадағалау, құрал-жабдыққа қосылу, пневматикалық және гидравтикалық сорап-компрессор тіректің орнату және қосу, VSD басқару панелі, RTU жүйесе және т.б.) орнату. Құжаттардың егжей-тегжейлі шолу, монтаж, механикалық аяқтау, іске қосу мен жөнжеу жұмыстары, пайдаланудан бастап.</value>
+  </data>
+  <data name="textNoMore15" xml:space="preserve">
+    <value>Электротехникалық және бақылау-өлшем жұмыстар (жарықтандыру, қуат, жылу қадағалау, F&amp;G, байланыс, PAGA, SCADA, құрал-жабдыққа қосылу, пневматикалық және гидравтикалық сызықтар, FOC, TVSAT және т.б.) орнату. Құжаттардың егжей-тегжейлі шолу, монтаж, механикалық аяқтау, іске қосу мен жөнжеу жұмыстары, пайдаланудан бастап.</value>
+  </data>
+  <data name="textNoMore16" xml:space="preserve">
+    <value>Электротехникалық катодтық қауіпсіздікке қызмет көрсету, тексеріс өткізуді және бас тартқан жағдайда істі түзетуді қамтамасыз ететің, OPF сайт құралдарды бақылау. Құралдың демонтажға қызмет көрсетілмейді, жөнделенеді және қайта орнатылады.</value>
+  </data>
+  <data name="textNoMore17" xml:space="preserve">
+    <value>Электротехникалық катодтық қауіпсіздікке қызмет көрсету, тексеріс өткізуді және бас тартқан жағдайда істі түзетуді қамтамасыз ететің, OPF сайт құралдарды бақылау. Құралдың демонтажға қызмет көрсетілмейді, жөнделенеді және қайта орнатылады.</value>
+  </data>
+  <data name="textNoMore18" xml:space="preserve">
+    <value>Электр және өлшеу құралдары, катодты қорғау жүйесі жабдықтау және орнатуды орындау жұмыстары</value>
+  </data>
+  <data name="textNoMore19" xml:space="preserve">
+    <value>IECEX/ATEX электр жүйесіне қызмет көрсету, тексеріс өткізуді және бас тартқан жағдайда істі түзетуді қамтамасыз ететін, барлық құралдарды бақылау. Құралдың демонтажға қызмет көрсетілмейді, жөнделенеді және қайта орнатылады.</value>
+  </data>
+  <data name="textNoMore20" xml:space="preserve">
+    <value>Электротехникалық және бақылау-өлшем жұмыстар (жарықтандыру, қуат, жылу қадағалау, F&amp;G, байланыс және т.б.) орнату. Құжаттардың егжей-тегжейлі шолу, монтаж, механикалық аяқтау, іске қосу мен жөнжеу жұмыстары, пайдаланудан бастап.</value>
+  </data>
+  <data name="textNoMore21" xml:space="preserve">
+    <value>E&amp;I жүйелерін орнату жөніндегі жұмыстың аяқталуы</value>
+  </data>
+  <data name="textNoMore22" xml:space="preserve">
+    <value>HVAC жүйесіне қызмет көрсету, тексеріс өткізуді және бас тартқан жағдайда істі түзетуді қамтамасыз ететін, барлық құралдарды бақылау. Құралдың демонтажға қызмет көрсетілмейді, жөнделенеді және қайта орнатылады.</value>
+  </data>
+  <data name="textNoMore23" xml:space="preserve">
+    <value>Электротехникалық және бақылау-өлшем жұмыстар (жарықтандыру, қуат, жылу қадағалау, құралдарға қосылужәне т.б.) орнату. Құжаттардың егжей-тегжейлі шолу, монтаж, механикалық аяқтау, іске қосу мен жөнжеу жұмыстары, пайдаланудан бастап.</value>
+  </data>
+  <data name="textNoMore24" xml:space="preserve">
+    <value>HVAC жүйесін орнату және LCR KTL жөнделген бөлменің монтаждау жұмыстарын қадағалау.</value>
+  </data>
+  <data name="textNoMore25" xml:space="preserve">
+    <value>Электр монтаждау және бақылау-өлшем жұмыстарын орнату, MC және Punch List тазалау, іске қосу және жөндеу жұмыстары</value>
+  </data>
+  <data name="textNoMore26" xml:space="preserve">
+    <value>Көп бейінді инженерияны орнату, соның ішінде құрылымдық, архитектуралық, электр, өлшемдік, HVAC, F&amp;G және  өрт сөндіру жүйелер. Барлық материалдырды, вентиляция және кондиционер жүйлерді, F&amp;G; өрт сөндіру жүйелерді сатып алу және жеткізу. Монтаж және конструкциялық бөлшектерді жинау, балқытып біріктіру, құм ағынымен өңдеу, бояу және оқшаулау. Электр монтаждау және бақылау-өлшем жұмыстар, тегін эмиссия үшін панельдерді орнату, MC және Punch List тазалау, іске қосу, жөндеу жұмыстары және пайдалануды енгізу.</value>
+  </data>
+  <data name="textNoMore27" xml:space="preserve">
+    <value>HVAC жүйесін орнату және LCR KTL жөнделген бөлменің монтаждау жұмыстарын қадағалау.</value>
+  </data>
+  <data name="textNoMore28" xml:space="preserve">
+    <value>Электротехникалық және бақылау-өлшем жұмыстар, материалдарды сатып алу, монтаждық жұмыстар (жарықтандыру, қуат, жылу қадағалау, F&amp;G, байланыс және т.б.) орнату. Құжаттардың егжей-тегжейлі шолу, монтаж, механикалық аяқтау, іске қосу мен жөнжеу жұмыстары, пайдаланудан бастап.</value>
+  </data>
+  <data name="textNoMore29" xml:space="preserve">
+    <value>Электротехникалық және бақылау-өлшем жұмыстар (жарықтандыру, қуат, жылу қадағалау, құрал-жабдыққа қосылу, пневматикалық және гидравтикалық сорап-компрессор тіректің орнату және қосу, VSD басқару панелі, RTU жүйесе және т.б.) орнату. Құжаттардың егжей-тегжейлі шолу, монтаж, механикалық аяқтау, іске қосу мен жөнжеу жұмыстары, пайдаланудан бастап.</value>
+  </data>
+  <data name="SubmitMessage" xml:space="preserve">
+    <value>Хабарлама</value>
+  </data>
+  <data name="ContactEmailFormat" xml:space="preserve">
+    <value>Жарамды поштаны енгізіңіз</value>
+  </data>
+  <data name="ContactFileVal" xml:space="preserve">
+    <value>Файлды тіркеңіз</value>
+  </data>
+  <data name="ContactMessageVal" xml:space="preserve">
+    <value>Хабалармаңызды енгізініз</value>
+  </data>
+  <data name="textMore561" xml:space="preserve">
+    <value>Биіктікте жұмыс істеу кезінде қауіпсіздік негіздері</value>
+  </data>
+  <data name="HseBanner" xml:space="preserve">
+    <value>HSE басқару тобымен танысыңыз</value>
+  </data>
+  <data name="hsegSpecialistBota" xml:space="preserve">
+    <value>Мукашева Ботагоз Нсамбаевна</value>
+  </data>
+  <data name="hsegSpecialistMarina" xml:space="preserve">
+    <value>Мамедова Марина Мамедовна</value>
+  </data>
+  <data name="hseqSpecialistHeader" xml:space="preserve">
+    <value>«Адалдық Үшін» марапатталған</value>
+  </data>
+  <data name="textEventCity" xml:space="preserve">
+    <value>Атырау,</value>
+  </data>
+  <data name="textEventDate" xml:space="preserve">
+    <value>12 Мамыр, 2018</value>
+  </data>
+  <data name="textEventTitle" xml:space="preserve">
+    <value>SITEK Caspian Тимбилдинг іс-шара</value>
+  </data>
+  <data name="textNew1" xml:space="preserve">
+    <value>SITEK Caspian өзінің мүдделі тұлғалары үшін жауапкершілікті өзіне алады және корпоративтік әлеуметтік жауапкершіліктің маңыздылығын Компания құрылған сәттен бастап түсінеді. 2017 жылы компания «DARA» қайырымдылық қорымен (Қайырымдылық қоры) келісім жасасты. 28 наурызда DARA Қоры Ақтаудағы даму ерекшеліктері бар балалар үшін Психологиялық-педагогикалық түзету кабинетін ресми түрде ашты.</value>
+  </data>
+  <data name="textNew2" xml:space="preserve">
+    <value>Маңғыстау облыстық білім басқармасының хабарлауынша, ерекше қажеттіліктері бар 4 968 бала өмір сүреді, олардың 2 мыңнан астамы мүмкіндігі шектеулі балалар. Облыста ерекше балалар мен оның отбасылары тегін кәсіби қолдау және көмек ала алатын балалар арнайы ұйымдары жеткіліксіз. Облыстағы ерекше қажеттіліктері бар балалардың көпшілігі және 2500-ден астам бала түзету көмегінсіз және консультациясыз оқып, өз проблемаларын жалғыз қалдырып, не істеу керектігін білмейді және өз баласын қалай көтере алады.</value>
+  </data>
+  <data name="textNew3" xml:space="preserve">
+    <value>Осыған байланысты, жеке демеушілер бірқатар қатысуымен Ақтау «Дара» Қоры мүгедектер мен олардың отбасыларына балаларға тиімді көмек көрсетуге бағытталған кабинетінің психологиялық және арнайы білім, ашылады. Жаңа Кабинет түзету барлық қажетті қазіргі заманғы жабдықтар бар: физикалық терапия тәжірибеден нысандар, Монтессори жабдықтары, сөйлеу және есту, оқу ойындар мен материалдарды әзірлеу үшін компьютерлік бағдарламалар. Әрбір бала өз дамуының түзету қолдау көрсету мамандардың мұнда арнайы жұмыс команда, жеке және топтық сабақтар жүргізілетін болады. Жыл сайын, Кабинетінің түзету тегін білікті және жан-жақты күтім мамандармен қамтамасыз ету, әр түрлі даму мүмкіндігі шектеулі 150-ден астам бала қызмет етеді.</value>
+  </data>
+  <data name="textNew4" xml:space="preserve">
+    <value>28 Наурыз, 2018</value>
+  </data>
+  <data name="textNewImg" xml:space="preserve">
+    <value>/Images/news-sitek-kk.jpg</value>
+  </data>
+  <data name="textNewLink" xml:space="preserve">
+    <value>Толық ақпаратты баспасөз релизінен табуға болады...</value>
+  </data>
+  <data name="textNewPDF" xml:space="preserve">
+    <value>/Documents/siteknews-kk.pdf</value>
+  </data>
+  <data name="textNewTitle" xml:space="preserve">
+    <value>Психологиялық-педагогикалық түзету кабинетінің ашылуы</value>
+  </data>
+</root>
